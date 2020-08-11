@@ -1,0 +1,245 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "D_dec[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D_uni[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_uni[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D_uni[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_uni[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_uni[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D_uni[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D_uni[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec_cent[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec_cent[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec_cent[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec_cent[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec_cent[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec_cent[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D_dec_cent[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display_valu[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display_valu[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display_valu[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display_valu[3]",
+					"strict" : false
+				},
+				{
+					"name" : "display_valu[4]",
+					"strict" : false
+				},
+				{
+					"name" : "display_valu[5]",
+					"strict" : false
+				},
+				{
+					"name" : "display_valu[6]",
+					"strict" : false
+				},
+				{
+					"name" : "columnas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "columnas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "columnas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "columnas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_HS",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_vS",
+					"strict" : false
+				},
+				{
+					"name" : "DIS_VUELTO",
+					"strict" : false
+				},
+				{
+					"name" : "clock_50",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "filas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "filas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "filas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "filas[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

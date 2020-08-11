@@ -1,0 +1,1081 @@
+Analysis & Synthesis report for maq_eg1
+Tue Jul 09 05:28:56 2019
+Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |maq_eg1|input_eval:input_e|maquina_de_estado:IMAQ|state_reg
+  9. Registers Protected by Synthesis
+ 10. Registers Removed During Synthesis
+ 11. General Register Statistics
+ 12. Inverted Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for input_eval:input_e|maquina_de_estado:IMAQ
+ 15. Parameter Settings for User Entity Instance: teclado:teclado1|divisor5millones:U0
+ 16. Parameter Settings for User Entity Instance: teclado:teclado1|contador4:U3
+ 17. Parameter Settings for User Entity Instance: input_eval:input_e|divisor500mil:I0
+ 18. Parameter Settings for User Entity Instance: input_eval:input_e|counter_mod:I32
+ 19. Parameter Settings for User Entity Instance: VGA_MAQUINA:vga_maqui|vga_sync:A1|divisor:U0
+ 20. Port Connectivity Checks: "input_eval:input_e|restador:resta|mux4a1_vuelto:U0"
+ 21. Port Connectivity Checks: "input_eval:input_e|comparador1:I29"
+ 22. Port Connectivity Checks: "input_eval:input_e|comparador1:I28"
+ 23. Port Connectivity Checks: "input_eval:input_e|comparador1:I27"
+ 24. Port Connectivity Checks: "input_eval:input_e|mux2a1:I15"
+ 25. Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U3"
+ 26. Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U2"
+ 27. Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U1"
+ 28. Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U0|fulladder:\gen0:7:U0"
+ 29. Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U0"
+ 30. Port Connectivity Checks: "input_eval:input_e|mux2a1:I14"
+ 31. Port Connectivity Checks: "input_eval:input_e|mux2a1:I13"
+ 32. Port Connectivity Checks: "input_eval:input_e|mux2a1:I12"
+ 33. Port Connectivity Checks: "input_eval:input_e|mux2a1:I11"
+ 34. Port Connectivity Checks: "input_eval:input_e|comparador:I10"
+ 35. Port Connectivity Checks: "input_eval:input_e|comparador:I9"
+ 36. Port Connectivity Checks: "input_eval:input_e|comparador:I8"
+ 37. Port Connectivity Checks: "input_eval:input_e|comparador:I7"
+ 38. Port Connectivity Checks: "input_eval:input_e|comparador:I6"
+ 39. Port Connectivity Checks: "input_eval:input_e|comparador:I5"
+ 40. Port Connectivity Checks: "input_eval:input_e|comparador:I4"
+ 41. Port Connectivity Checks: "input_eval:input_e|comparador:I3"
+ 42. Port Connectivity Checks: "teclado:teclado1|mux2_1:U11"
+ 43. Port Connectivity Checks: "teclado:teclado1|mux4a1:U8"
+ 44. Port Connectivity Checks: "teclado:teclado1|mux4a1:U7"
+ 45. Port Connectivity Checks: "teclado:teclado1|mux4a1:U6"
+ 46. Port Connectivity Checks: "teclado:teclado1|mux4a1:U5"
+ 47. Port Connectivity Checks: "teclado:teclado1|decodificador:U4"
+ 48. Post-Synthesis Netlist Statistics for Top Partition
+ 49. Elapsed Time Per Partition
+ 50. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Tue Jul 09 05:28:56 2019       ;
+; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Lite Edition ;
+; Revision Name                      ; maq_eg1                                     ;
+; Top-level Entity Name              ; maq_eg1                                     ;
+; Family                             ; MAX 10                                      ;
+; Total logic elements               ; 1,420                                       ;
+;     Total combinational functions  ; 1,411                                       ;
+;     Dedicated logic registers      ; 129                                         ;
+; Total registers                    ; 129                                         ;
+; Total pins                         ; 68                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; 10M50DAF484C7G     ;                    ;
+; Top-level entity name                                                      ; maq_eg1            ; maq_eg1            ;
+; Family name                                                                ; MAX 10             ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ; < 0.1%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                      ;
++------------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path   ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                             ; Library ;
++------------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------+---------+
+; restador.vhd                       ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/restador.vhd                       ;         ;
+; registro_vuelto.vhd                ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro_vuelto.vhd                ;         ;
+; my_components_vuelto.vhd           ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_components_vuelto.vhd           ;         ;
+; mux4a1_vuelto.vhd                  ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux4a1_vuelto.vhd                  ;         ;
+; complemento_dos.vhd                ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/complemento_dos.vhd                ;         ;
+; VGA_MAQUINA.vhd                    ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/VGA_MAQUINA.vhd                    ;         ;
+; my_circuit.vhd                     ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_circuit.vhd                     ;         ;
+; vga_sync.vhd                       ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/vga_sync.vhd                       ;         ;
+; teclado.vhd                        ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd                        ;         ;
+; synchronizer.vhd                   ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/synchronizer.vhd                   ;         ;
+; registro4.vhd                      ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro4.vhd                      ;         ;
+; registro.vhd                       ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro.vhd                       ;         ;
+; mux4a1.vhd                         ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux4a1.vhd                         ;         ;
+; mux2a1.vhd                         ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux2a1.vhd                         ;         ;
+; input_eval.vhd                     ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd                     ;         ;
+; hexa.vhd                           ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/hexa.vhd                           ;         ;
+; fulladder.vhd                      ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/fulladder.vhd                      ;         ;
+; ffd.vhd                            ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/ffd.vhd                            ;         ;
+; enganche.vhd                       ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/enganche.vhd                       ;         ;
+; divisor5millones.vhd               ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/divisor5millones.vhd               ;         ;
+; divisor500mil.vhd                  ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/divisor500mil.vhd                  ;         ;
+; divisor.vhd                        ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/divisor.vhd                        ;         ;
+; detec_fs.vhd                       ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/detec_fs.vhd                       ;         ;
+; decodificador.vhd                  ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/decodificador.vhd                  ;         ;
+; counter_mod.vhd                    ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/counter_mod.vhd                    ;         ;
+; counter.vhd                        ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/counter.vhd                        ;         ;
+; contador4.vhd                      ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador4.vhd                      ;         ;
+; contador10.vhd                     ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador10.vhd                     ;         ;
+; contador.vhd                       ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador.vhd                       ;         ;
+; comparador1.vhd                    ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/comparador1.vhd                    ;         ;
+; comparador.vhd                     ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/comparador.vhd                     ;         ;
+; codificador.vhd                    ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/codificador.vhd                    ;         ;
+; bintobcd.vhd                       ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/bintobcd.vhd                       ;         ;
+; adder_completo.vhd                 ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/adder_completo.vhd                 ;         ;
+; adder.vhd                          ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/adder.vhd                          ;         ;
+; mux2_1.vhd                         ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux2_1.vhd                         ;         ;
+; registro_tipo_producto.vhd         ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro_tipo_producto.vhd         ;         ;
+; maquina_de_estado.vhd              ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maquina_de_estado.vhd              ;         ;
+; hexa_0.vhd                         ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/hexa_0.vhd                         ;         ;
+; my_componentsdeladder_completo.vhd ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentsdeladder_completo.vhd ;         ;
+; my_componentdelvga_sync.vhd        ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentdelvga_sync.vhd        ;         ;
+; my_componentdeladder.vhd           ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentdeladder.vhd           ;         ;
+; my_circuitsdelinput_eval.vhd       ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_circuitsdelinput_eval.vhd       ;         ;
+; my_componentsdelteclado.vhd        ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentsdelteclado.vhd        ;         ;
+; my_componentsdelmaq_eg1.vhd        ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentsdelmaq_eg1.vhd        ;         ;
+; maq_eg1.vhd                        ; yes             ; User VHDL File  ; C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd                        ;         ;
++------------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimated Total logic elements              ; 1,420          ;
+;                                             ;                ;
+; Total combinational functions               ; 1411           ;
+; Logic element usage by number of LUT inputs ;                ;
+;     -- 4 input functions                    ; 1034           ;
+;     -- 3 input functions                    ; 186            ;
+;     -- <=2 input functions                  ; 191            ;
+;                                             ;                ;
+; Logic elements by mode                      ;                ;
+;     -- normal mode                          ; 1333           ;
+;     -- arithmetic mode                      ; 78             ;
+;                                             ;                ;
+; Total registers                             ; 129            ;
+;     -- Dedicated logic registers            ; 129            ;
+;     -- I/O registers                        ; 0              ;
+;                                             ;                ;
+; I/O pins                                    ; 68             ;
+;                                             ;                ;
+; Embedded Multiplier 9-bit elements          ; 0              ;
+;                                             ;                ;
+; Maximum fan-out node                        ; clock_50~input ;
+; Maximum fan-out                             ; 129            ;
+; Total fan-out                               ; 5648           ;
+; Average fan-out                             ; 3.37           ;
++---------------------------------------------+----------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                    ;
++------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node         ; LC Combinationals ; LC Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                          ; Library Name ;
++------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------+--------------+
+; |maq_eg1                           ; 1411 (0)          ; 129 (0)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 68   ; 0            ; 0          ; |maq_eg1                                                                     ; work         ;
+;    |VGA_MAQUINA:vga_maqui|         ; 1084 (1038)       ; 21 (0)       ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|VGA_MAQUINA:vga_maqui                                               ; work         ;
+;       |vga_sync:A1|                ; 46 (21)           ; 21 (0)       ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|VGA_MAQUINA:vga_maqui|vga_sync:A1                                   ; work         ;
+;          |contador:U1|             ; 13 (13)           ; 10 (10)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|VGA_MAQUINA:vga_maqui|vga_sync:A1|contador:U1                       ; work         ;
+;          |contador:U2|             ; 12 (12)           ; 10 (10)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|VGA_MAQUINA:vga_maqui|vga_sync:A1|contador:U2                       ; work         ;
+;          |divisor:U0|              ; 0 (0)             ; 1 (1)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|VGA_MAQUINA:vga_maqui|vga_sync:A1|divisor:U0                        ; work         ;
+;    |input_eval:input_e|            ; 255 (16)          ; 76 (0)       ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e                                                  ; work         ;
+;       |adder_completo:I17|         ; 8 (0)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17                               ; work         ;
+;          |adder:U2|                ; 2 (0)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17|adder:U2                      ; work         ;
+;             |fulladder:\gen0:1:U0| ; 1 (1)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17|adder:U2|fulladder:\gen0:1:U0 ; work         ;
+;             |fulladder:\gen0:4:U0| ; 1 (1)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17|adder:U2|fulladder:\gen0:4:U0 ; work         ;
+;          |adder:U3|                ; 6 (0)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17|adder:U3                      ; work         ;
+;             |fulladder:\gen0:1:U0| ; 2 (2)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17|adder:U3|fulladder:\gen0:1:U0 ; work         ;
+;             |fulladder:\gen0:2:U0| ; 1 (1)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17|adder:U3|fulladder:\gen0:2:U0 ; work         ;
+;             |fulladder:\gen0:3:U0| ; 1 (1)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17|adder:U3|fulladder:\gen0:3:U0 ; work         ;
+;             |fulladder:\gen0:4:U0| ; 1 (1)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17|adder:U3|fulladder:\gen0:4:U0 ; work         ;
+;             |fulladder:\gen0:5:U0| ; 1 (1)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|adder_completo:I17|adder:U3|fulladder:\gen0:5:U0 ; work         ;
+;       |bintobcd:I18|               ; 38 (38)           ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|bintobcd:I18                                     ; work         ;
+;       |bintobcd:conversion_vga|    ; 47 (47)           ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|bintobcd:conversion_vga                          ; work         ;
+;       |comparador1:I27|            ; 1 (1)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|comparador1:I27                                  ; work         ;
+;       |comparador:I10|             ; 2 (2)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|comparador:I10                                   ; work         ;
+;       |comparador:I8|              ; 2 (2)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|comparador:I8                                    ; work         ;
+;       |contador10:I24|             ; 4 (4)             ; 4 (4)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|contador10:I24                                   ; work         ;
+;       |contador10:I25|             ; 4 (4)             ; 4 (4)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|contador10:I25                                   ; work         ;
+;       |contador10:I26|             ; 4 (4)             ; 4 (4)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|contador10:I26                                   ; work         ;
+;       |counter:I22|                ; 5 (5)             ; 4 (4)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|counter:I22                                      ; work         ;
+;       |counter_mod:I32|            ; 12 (12)           ; 8 (8)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|counter_mod:I32                                  ; work         ;
+;       |detec_fs:I31|               ; 0 (0)             ; 1 (1)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|detec_fs:I31                                     ; work         ;
+;       |divisor500mil:I0|           ; 32 (32)           ; 20 (20)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|divisor500mil:I0                                 ; work         ;
+;       |enganche:I33|               ; 1 (1)             ; 1 (1)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|enganche:I33                                     ; work         ;
+;       |ffd:I1|                     ; 0 (0)             ; 1 (1)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|ffd:I1                                           ; work         ;
+;       |hexa:I20|                   ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|hexa:I20                                         ; work         ;
+;       |hexa:I21|                   ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|hexa:I21                                         ; work         ;
+;       |hexa:Ivalu_display|         ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|hexa:Ivalu_display                               ; work         ;
+;       |maquina_de_estado:IMAQ|     ; 29 (29)           ; 5 (5)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|maquina_de_estado:IMAQ                           ; work         ;
+;       |mux2a1:I15|                 ; 11 (11)           ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|mux2a1:I15                                       ; work         ;
+;       |registro4:I2|               ; 0 (0)             ; 4 (4)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|registro4:I2                                     ; work         ;
+;       |registro8:I16|              ; 0 (0)             ; 8 (8)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|registro8:I16                                    ; work         ;
+;       |registro_tipo_producto:I34| ; 0 (0)             ; 4 (4)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|registro_tipo_producto:I34                       ; work         ;
+;       |restador:resta|             ; 18 (0)            ; 8 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|restador:resta                                   ; work         ;
+;          |complemento_dos:U1|      ; 8 (8)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|restador:resta|complemento_dos:U1                ; work         ;
+;          |mux4a1_vuelto:U0|        ; 2 (2)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|restador:resta|mux4a1_vuelto:U0                  ; work         ;
+;          |registro_vuelto:U2|      ; 8 (8)             ; 8 (8)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|input_eval:input_e|restador:resta|registro_vuelto:U2                ; work         ;
+;    |teclado:teclado1|              ; 72 (0)            ; 32 (0)       ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|teclado:teclado1                                                    ; work         ;
+;       |codificador:U2|             ; 3 (3)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|teclado:teclado1|codificador:U2                                     ; work         ;
+;       |contador4:U3|               ; 2 (2)             ; 2 (2)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|teclado:teclado1|contador4:U3                                       ; work         ;
+;       |divisor5millones:U0|        ; 38 (38)           ; 22 (22)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|teclado:teclado1|divisor5millones:U0                                ; work         ;
+;       |hexa_0:U10|                 ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|teclado:teclado1|hexa_0:U10                                         ; work         ;
+;       |mux2_1:U11|                 ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|teclado:teclado1|mux2_1:U11                                         ; work         ;
+;       |mux4a1:U9|                  ; 11 (11)           ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|teclado:teclado1|mux4a1:U9                                          ; work         ;
+;       |synchronizer:U1|            ; 4 (4)             ; 8 (8)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |maq_eg1|teclado:teclado1|synchronizer:U1                                    ; work         ;
++------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type: Safe One-Hot
++---------------------------------------------------------------------------------------------------------+
+; State Machine - |maq_eg1|input_eval:input_e|maquina_de_estado:IMAQ|state_reg                            ;
++------------------+----------------+------------------+----------------+----------------+----------------+
+; Name             ; state_reg.st_4 ; state_reg.st_3_0 ; state_reg.st_3 ; state_reg.st_2 ; state_reg.st_1 ;
++------------------+----------------+------------------+----------------+----------------+----------------+
+; state_reg.st_1   ; 0              ; 0                ; 0              ; 0              ; 0              ;
+; state_reg.st_2   ; 0              ; 0                ; 0              ; 1              ; 1              ;
+; state_reg.st_3   ; 0              ; 0                ; 1              ; 0              ; 1              ;
+; state_reg.st_3_0 ; 0              ; 1                ; 0              ; 0              ; 1              ;
+; state_reg.st_4   ; 1              ; 0                ; 0              ; 0              ; 1              ;
++------------------+----------------+------------------+----------------+----------------+----------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Protected by Synthesis                                                                                                                                           ;
++------------------------------------------------------------+------------------------------------------------------------------+--------------------------------------------+
+; Register Name                                              ; Protected by Synthesis Attribute or Preserve Register Assignment ; Not to be Touched by Netlist Optimizations ;
++------------------------------------------------------------+------------------------------------------------------------------+--------------------------------------------+
+; input_eval:input_e|maquina_de_estado:IMAQ|state_reg.st_3   ; no                                                               ; yes                                        ;
+; input_eval:input_e|maquina_de_estado:IMAQ|state_reg.st_3_0 ; no                                                               ; yes                                        ;
+; input_eval:input_e|maquina_de_estado:IMAQ|state_reg.st_4   ; no                                                               ; yes                                        ;
+; input_eval:input_e|maquina_de_estado:IMAQ|state_reg.st_1   ; no                                                               ; yes                                        ;
+; input_eval:input_e|maquina_de_estado:IMAQ|state_reg.st_2   ; no                                                               ; yes                                        ;
++------------------------------------------------------------+------------------------------------------------------------------+--------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                               ;
++-------------------------------------------------------+----------------------------------------------------------+
+; Register name                                         ; Reason for Removal                                       ;
++-------------------------------------------------------+----------------------------------------------------------+
+; teclado:teclado1|divisor5millones:U0|q_reg[0]         ; Merged with input_eval:input_e|divisor500mil:I0|q_reg[0] ;
+; VGA_MAQUINA:vga_maqui|vga_sync:A1|divisor:U0|q_reg[0] ; Merged with input_eval:input_e|divisor500mil:I0|q_reg[0] ;
+; teclado:teclado1|divisor5millones:U0|q_reg[1]         ; Merged with input_eval:input_e|divisor500mil:I0|q_reg[1] ;
+; VGA_MAQUINA:vga_maqui|vga_sync:A1|divisor:U0|q_reg[1] ; Stuck at GND due to stuck port data_in                   ;
+; Total Number of Removed Registers = 4                 ;                                                          ;
++-------------------------------------------------------+----------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 129   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 129   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 80    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------+
+; Inverted Register Statistics                         ;
++--------------------------------------------+---------+
+; Inverted Register                          ; Fan out ;
++--------------------------------------------+---------+
+; input_eval:input_e|contador10:I25|q_reg[3] ; 12      ;
+; input_eval:input_e|contador10:I25|q_reg[0] ; 13      ;
+; input_eval:input_e|contador10:I24|q_reg[3] ; 12      ;
+; input_eval:input_e|contador10:I24|q_reg[0] ; 13      ;
+; input_eval:input_e|contador10:I26|q_reg[3] ; 12      ;
+; input_eval:input_e|contador10:I26|q_reg[0] ; 12      ;
+; Total number of inverted registers = 6     ;         ;
++--------------------------------------------+---------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------+
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |maq_eg1|input_eval:input_e|restador:resta|mux4a1_vuelto:U0|f[0] ;
+; 90:1               ; 2 bits    ; 120 LEs       ; 120 LEs              ; 0 LEs                  ; No         ; |maq_eg1|VGA_MAQUINA:vga_maqui|color[0]                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------+
+
+
++------------------------------------------------------------------+
+; Source assignments for input_eval:input_e|maquina_de_estado:IMAQ ;
++--------------------+-------+------+------------------------------+
+; Assignment         ; Value ; From ; To                           ;
++--------------------+-------+------+------------------------------+
+; SAFE_STATE_MACHINE ; on    ; -    ; state_reg                    ;
++--------------------+-------+------+------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: teclado:teclado1|divisor5millones:U0 ;
++----------------+---------+--------------------------------------------------------+
+; Parameter Name ; Value   ; Type                                                   ;
++----------------+---------+--------------------------------------------------------+
+; n              ; 5000000 ; Signed Integer                                         ;
++----------------+---------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: teclado:teclado1|contador4:U3 ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; n              ; 4     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: input_eval:input_e|divisor500mil:I0 ;
++----------------+--------+--------------------------------------------------------+
+; Parameter Name ; Value  ; Type                                                   ;
++----------------+--------+--------------------------------------------------------+
+; n              ; 500000 ; Signed Integer                                         ;
++----------------+--------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: input_eval:input_e|counter_mod:I32 ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; n              ; 201   ; Signed Integer                                         ;
+; width          ; 8     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: VGA_MAQUINA:vga_maqui|vga_sync:A1|divisor:U0 ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; n              ; 2     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|restador:resta|mux4a1_vuelto:U0" ;
++---------+-------+----------+---------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                           ;
++---------+-------+----------+---------------------------------------------------+
+; a[3..0] ; Input ; Info     ; Stuck at VCC                                      ;
+; a[7..4] ; Input ; Info     ; Stuck at GND                                      ;
+; b[7..5] ; Input ; Info     ; Stuck at GND                                      ;
+; b[1..0] ; Input ; Info     ; Stuck at GND                                      ;
+; b[4]    ; Input ; Info     ; Stuck at VCC                                      ;
+; b[3]    ; Input ; Info     ; Stuck at GND                                      ;
+; b[2]    ; Input ; Info     ; Stuck at VCC                                      ;
+; c[4..3] ; Input ; Info     ; Stuck at VCC                                      ;
+; c[7..5] ; Input ; Info     ; Stuck at GND                                      ;
+; c[2..1] ; Input ; Info     ; Stuck at GND                                      ;
+; c[0]    ; Input ; Info     ; Stuck at VCC                                      ;
+; d       ; Input ; Info     ; Stuck at GND                                      ;
++---------+-------+----------+---------------------------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador1:I29" ;
++---------+-------+----------+-----------------------------------+
+; Port    ; Type  ; Severity ; Details                           ;
++---------+-------+----------+-----------------------------------+
+; b[4..3] ; Input ; Info     ; Stuck at VCC                      ;
+; b[7..5] ; Input ; Info     ; Stuck at GND                      ;
+; b[2..1] ; Input ; Info     ; Stuck at GND                      ;
+; b[0]    ; Input ; Info     ; Stuck at VCC                      ;
++---------+-------+----------+-----------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador1:I28" ;
++---------+-------+----------+-----------------------------------+
+; Port    ; Type  ; Severity ; Details                           ;
++---------+-------+----------+-----------------------------------+
+; b[7..5] ; Input ; Info     ; Stuck at GND                      ;
+; b[1..0] ; Input ; Info     ; Stuck at GND                      ;
+; b[4]    ; Input ; Info     ; Stuck at VCC                      ;
+; b[3]    ; Input ; Info     ; Stuck at GND                      ;
+; b[2]    ; Input ; Info     ; Stuck at VCC                      ;
++---------+-------+----------+-----------------------------------+
+
+
++----------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador1:I27" ;
++---------+-------+----------+-----------------------------------+
+; Port    ; Type  ; Severity ; Details                           ;
++---------+-------+----------+-----------------------------------+
+; b[3..0] ; Input ; Info     ; Stuck at VCC                      ;
+; b[7..4] ; Input ; Info     ; Stuck at GND                      ;
++---------+-------+----------+-----------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|mux2a1:I15" ;
++------+-------+----------+---------------------------------+
+; Port ; Type  ; Severity ; Details                         ;
++------+-------+----------+---------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                    ;
++------+-------+----------+---------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U3" ;
++------+-------+----------+--------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                          ;
++------+-------+----------+--------------------------------------------------+
+; c_in ; Input ; Info     ; Stuck at GND                                     ;
++------+-------+----------+--------------------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U2" ;
++------+-------+----------+--------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                          ;
++------+-------+----------+--------------------------------------------------+
+; c_in ; Input ; Info     ; Stuck at GND                                     ;
++------+-------+----------+--------------------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U1" ;
++------+-------+----------+--------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                          ;
++------+-------+----------+--------------------------------------------------+
+; c_in ; Input ; Info     ; Stuck at GND                                     ;
++------+-------+----------+--------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U0|fulladder:\gen0:7:U0"                ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                             ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+; cout ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|adder_completo:I17|adder:U0" ;
++------+-------+----------+--------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                          ;
++------+-------+----------+--------------------------------------------------+
+; c_in ; Input ; Info     ; Stuck at GND                                     ;
++------+-------+----------+--------------------------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|mux2a1:I14" ;
++---------+-------+----------+------------------------------+
+; Port    ; Type  ; Severity ; Details                      ;
++---------+-------+----------+------------------------------+
+; a[5..4] ; Input ; Info     ; Stuck at VCC                 ;
+; a[7..6] ; Input ; Info     ; Stuck at GND                 ;
+; a[3..2] ; Input ; Info     ; Stuck at GND                 ;
+; a[1]    ; Input ; Info     ; Stuck at VCC                 ;
+; a[0]    ; Input ; Info     ; Stuck at GND                 ;
+; b       ; Input ; Info     ; Stuck at GND                 ;
++---------+-------+----------+------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|mux2a1:I13" ;
++---------+-------+----------+------------------------------+
+; Port    ; Type  ; Severity ; Details                      ;
++---------+-------+----------+------------------------------+
+; a[7..5] ; Input ; Info     ; Stuck at GND                 ;
+; a[1..0] ; Input ; Info     ; Stuck at GND                 ;
+; a[4]    ; Input ; Info     ; Stuck at VCC                 ;
+; a[3]    ; Input ; Info     ; Stuck at GND                 ;
+; a[2]    ; Input ; Info     ; Stuck at VCC                 ;
+; b       ; Input ; Info     ; Stuck at GND                 ;
++---------+-------+----------+------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|mux2a1:I12" ;
++---------+-------+----------+------------------------------+
+; Port    ; Type  ; Severity ; Details                      ;
++---------+-------+----------+------------------------------+
+; a[7..4] ; Input ; Info     ; Stuck at GND                 ;
+; a[3]    ; Input ; Info     ; Stuck at VCC                 ;
+; a[2]    ; Input ; Info     ; Stuck at GND                 ;
+; a[1]    ; Input ; Info     ; Stuck at VCC                 ;
+; a[0]    ; Input ; Info     ; Stuck at GND                 ;
+; b       ; Input ; Info     ; Stuck at GND                 ;
++---------+-------+----------+------------------------------+
+
+
++-----------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|mux2a1:I11" ;
++---------+-------+----------+------------------------------+
+; Port    ; Type  ; Severity ; Details                      ;
++---------+-------+----------+------------------------------+
+; a[7..3] ; Input ; Info     ; Stuck at GND                 ;
+; a[2]    ; Input ; Info     ; Stuck at VCC                 ;
+; a[1]    ; Input ; Info     ; Stuck at GND                 ;
+; a[0]    ; Input ; Info     ; Stuck at VCC                 ;
+; b       ; Input ; Info     ; Stuck at GND                 ;
++---------+-------+----------+------------------------------+
+
+
++---------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador:I10" ;
++---------+-------+----------+----------------------------------+
+; Port    ; Type  ; Severity ; Details                          ;
++---------+-------+----------+----------------------------------+
+; b[1..0] ; Input ; Info     ; Stuck at GND                     ;
+; b[3]    ; Input ; Info     ; Stuck at GND                     ;
+; b[2]    ; Input ; Info     ; Stuck at VCC                     ;
++---------+-------+----------+----------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador:I9" ;
++---------+-------+----------+---------------------------------+
+; Port    ; Type  ; Severity ; Details                         ;
++---------+-------+----------+---------------------------------+
+; b[1..0] ; Input ; Info     ; Stuck at VCC                    ;
+; b[3..2] ; Input ; Info     ; Stuck at GND                    ;
++---------+-------+----------+---------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador:I8" ;
++---------+-------+----------+---------------------------------+
+; Port    ; Type  ; Severity ; Details                         ;
++---------+-------+----------+---------------------------------+
+; b[3..2] ; Input ; Info     ; Stuck at GND                    ;
+; b[1]    ; Input ; Info     ; Stuck at VCC                    ;
+; b[0]    ; Input ; Info     ; Stuck at GND                    ;
++---------+-------+----------+---------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador:I7" ;
++---------+-------+----------+---------------------------------+
+; Port    ; Type  ; Severity ; Details                         ;
++---------+-------+----------+---------------------------------+
+; b[3..1] ; Input ; Info     ; Stuck at GND                    ;
+; b[0]    ; Input ; Info     ; Stuck at VCC                    ;
++---------+-------+----------+---------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador:I6" ;
++---------+-------+----------+---------------------------------+
+; Port    ; Type  ; Severity ; Details                         ;
++---------+-------+----------+---------------------------------+
+; b[3..2] ; Input ; Info     ; Stuck at VCC                    ;
+; b[1]    ; Input ; Info     ; Stuck at GND                    ;
+; b[0]    ; Input ; Info     ; Stuck at VCC                    ;
++---------+-------+----------+---------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador:I5" ;
++---------+-------+----------+---------------------------------+
+; Port    ; Type  ; Severity ; Details                         ;
++---------+-------+----------+---------------------------------+
+; b[3..2] ; Input ; Info     ; Stuck at VCC                    ;
+; b[1..0] ; Input ; Info     ; Stuck at GND                    ;
++---------+-------+----------+---------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador:I4" ;
++---------+-------+----------+---------------------------------+
+; Port    ; Type  ; Severity ; Details                         ;
++---------+-------+----------+---------------------------------+
+; b[1..0] ; Input ; Info     ; Stuck at VCC                    ;
+; b[3]    ; Input ; Info     ; Stuck at VCC                    ;
+; b[2]    ; Input ; Info     ; Stuck at GND                    ;
++---------+-------+----------+---------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "input_eval:input_e|comparador:I3" ;
++------+-------+----------+------------------------------------+
+; Port ; Type  ; Severity ; Details                            ;
++------+-------+----------+------------------------------------+
+; b[3] ; Input ; Info     ; Stuck at VCC                       ;
+; b[2] ; Input ; Info     ; Stuck at GND                       ;
+; b[1] ; Input ; Info     ; Stuck at VCC                       ;
+; b[0] ; Input ; Info     ; Stuck at GND                       ;
++------+-------+----------+------------------------------------+
+
+
++---------------------------------------------------------+
+; Port Connectivity Checks: "teclado:teclado1|mux2_1:U11" ;
++---------+-------+----------+----------------------------+
+; Port    ; Type  ; Severity ; Details                    ;
++---------+-------+----------+----------------------------+
+; b[1..0] ; Input ; Info     ; Stuck at VCC               ;
+; b[6]    ; Input ; Info     ; Stuck at GND               ;
+; b[5]    ; Input ; Info     ; Stuck at VCC               ;
+; b[4]    ; Input ; Info     ; Stuck at GND               ;
+; b[3]    ; Input ; Info     ; Stuck at VCC               ;
+; b[2]    ; Input ; Info     ; Stuck at GND               ;
++---------+-------+----------+----------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "teclado:teclado1|mux4a1:U8" ;
++---------+-------+----------+---------------------------+
+; Port    ; Type  ; Severity ; Details                   ;
++---------+-------+----------+---------------------------+
+; a[3..1] ; Input ; Info     ; Stuck at VCC              ;
+; a[0]    ; Input ; Info     ; Stuck at GND              ;
+; b[2..0] ; Input ; Info     ; Stuck at VCC              ;
+; b[3]    ; Input ; Info     ; Stuck at GND              ;
+; c[1..0] ; Input ; Info     ; Stuck at GND              ;
+; c[3]    ; Input ; Info     ; Stuck at GND              ;
+; c[2]    ; Input ; Info     ; Stuck at VCC              ;
+; d[3..1] ; Input ; Info     ; Stuck at GND              ;
+; d[0]    ; Input ; Info     ; Stuck at VCC              ;
++---------+-------+----------+---------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "teclado:teclado1|mux4a1:U7" ;
++---------+-------+----------+---------------------------+
+; Port    ; Type  ; Severity ; Details                   ;
++---------+-------+----------+---------------------------+
+; a       ; Input ; Info     ; Stuck at GND              ;
+; b[2..0] ; Input ; Info     ; Stuck at GND              ;
+; b[3]    ; Input ; Info     ; Stuck at VCC              ;
+; c[3]    ; Input ; Info     ; Stuck at GND              ;
+; c[2]    ; Input ; Info     ; Stuck at VCC              ;
+; c[1]    ; Input ; Info     ; Stuck at GND              ;
+; c[0]    ; Input ; Info     ; Stuck at VCC              ;
+; d[3..2] ; Input ; Info     ; Stuck at GND              ;
+; d[1]    ; Input ; Info     ; Stuck at VCC              ;
+; d[0]    ; Input ; Info     ; Stuck at GND              ;
++---------+-------+----------+---------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "teclado:teclado1|mux4a1:U6" ;
++---------+-------+----------+---------------------------+
+; Port    ; Type  ; Severity ; Details                   ;
++---------+-------+----------+---------------------------+
+; a       ; Input ; Info     ; Stuck at VCC              ;
+; b[2..1] ; Input ; Info     ; Stuck at GND              ;
+; b[3]    ; Input ; Info     ; Stuck at VCC              ;
+; b[0]    ; Input ; Info     ; Stuck at VCC              ;
+; c[2..1] ; Input ; Info     ; Stuck at VCC              ;
+; c[3]    ; Input ; Info     ; Stuck at GND              ;
+; c[0]    ; Input ; Info     ; Stuck at GND              ;
+; d[1..0] ; Input ; Info     ; Stuck at VCC              ;
+; d[3..2] ; Input ; Info     ; Stuck at GND              ;
++---------+-------+----------+---------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "teclado:teclado1|mux4a1:U5" ;
++---------+-------+----------+---------------------------+
+; Port    ; Type  ; Severity ; Details                   ;
++---------+-------+----------+---------------------------+
+; a[3..2] ; Input ; Info     ; Stuck at VCC              ;
+; a[1]    ; Input ; Info     ; Stuck at GND              ;
+; a[0]    ; Input ; Info     ; Stuck at VCC              ;
+; b[3..2] ; Input ; Info     ; Stuck at VCC              ;
+; b[1..0] ; Input ; Info     ; Stuck at GND              ;
+; c[1..0] ; Input ; Info     ; Stuck at VCC              ;
+; c[3]    ; Input ; Info     ; Stuck at VCC              ;
+; c[2]    ; Input ; Info     ; Stuck at GND              ;
+; d[3]    ; Input ; Info     ; Stuck at VCC              ;
+; d[2]    ; Input ; Info     ; Stuck at GND              ;
+; d[1]    ; Input ; Info     ; Stuck at VCC              ;
+; d[0]    ; Input ; Info     ; Stuck at GND              ;
++---------+-------+----------+---------------------------+
+
+
++---------------------------------------------------------------+
+; Port Connectivity Checks: "teclado:teclado1|decodificador:U4" ;
++------+-------+----------+-------------------------------------+
+; Port ; Type  ; Severity ; Details                             ;
++------+-------+----------+-------------------------------------+
+; en   ; Input ; Info     ; Stuck at VCC                        ;
++------+-------+----------+-------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 68                          ;
+; cycloneiii_ff         ; 129                         ;
+;     CLR               ; 49                          ;
+;     ENA CLR           ; 80                          ;
+; cycloneiii_lcell_comb ; 1425                        ;
+;     arith             ; 78                          ;
+;         2 data inputs ; 72                          ;
+;         3 data inputs ; 6                           ;
+;     normal            ; 1347                        ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 27                          ;
+;         2 data inputs ; 104                         ;
+;         3 data inputs ; 180                         ;
+;         4 data inputs ; 1034                        ;
+;                       ;                             ;
+; Max LUT depth         ; 18.00                       ;
+; Average LUT depth     ; 12.21                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:12     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+    Info: Processing started: Tue Jul 09 05:28:18 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off maq_eg1 -c maq_eg1
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file restador.vhd
+    Info (12022): Found design unit 1: restador-behav File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/restador.vhd Line: 14
+    Info (12023): Found entity 1: restador File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/restador.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file registro_vuelto.vhd
+    Info (12022): Found design unit 1: registro_vuelto-structural File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro_vuelto.vhd Line: 11
+    Info (12023): Found entity 1: registro_vuelto File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro_vuelto.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file my_components_vuelto.vhd
+    Info (12022): Found design unit 1: my_components_vuelto File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_components_vuelto.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file mux4a1_vuelto.vhd
+    Info (12022): Found design unit 1: mux4a1_vuelto-struc File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux4a1_vuelto.vhd Line: 12
+    Info (12023): Found entity 1: mux4a1_vuelto File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux4a1_vuelto.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file complemento_dos.vhd
+    Info (12022): Found design unit 1: complemento_dos-structural File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/complemento_dos.vhd Line: 10
+    Info (12023): Found entity 1: complemento_dos File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/complemento_dos.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file vga_maquina.vhd
+    Info (12022): Found design unit 1: VGA_MAQUINA-circuit File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/VGA_MAQUINA.vhd Line: 39
+    Info (12023): Found entity 1: VGA_MAQUINA File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/VGA_MAQUINA.vhd Line: 6
+Info (12021): Found 1 design units, including 0 entities, in source file my_circuit.vhd
+    Info (12022): Found design unit 1: my_circuit File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_circuit.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file vga_sync.vhd
+    Info (12022): Found design unit 1: vga_sync-struc_1 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/vga_sync.vhd Line: 17
+    Info (12023): Found entity 1: vga_sync File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/vga_sync.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file teclado.vhd
+    Info (12022): Found design unit 1: teclado-structural File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 15
+    Info (12023): Found entity 1: teclado File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file synchronizer.vhd
+    Info (12022): Found design unit 1: synchronizer-struc_1 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/synchronizer.vhd Line: 11
+    Info (12023): Found entity 1: synchronizer File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/synchronizer.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file registro4.vhd
+    Info (12022): Found design unit 1: registro4-behave_2 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro4.vhd Line: 11
+    Info (12023): Found entity 1: registro4 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro4.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file registro.vhd
+    Info (12022): Found design unit 1: registro8-behave_1 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro.vhd Line: 11
+    Info (12023): Found entity 1: registro8 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file mux4a1.vhd
+    Info (12022): Found design unit 1: mux4a1-struc_5 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux4a1.vhd Line: 12
+    Info (12023): Found entity 1: mux4a1 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux4a1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file mux2a1.vhd
+    Info (12022): Found design unit 1: mux2a1-struc_0 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux2a1.vhd Line: 11
+    Info (12023): Found entity 1: mux2a1 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux2a1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file input_eval.vhd
+    Info (12022): Found design unit 1: input_eval-behav File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 35
+    Info (12023): Found entity 1: input_eval File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file hexa.vhd
+    Info (12022): Found design unit 1: hexa-structural_0 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/hexa.vhd Line: 28
+    Info (12023): Found entity 1: hexa File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/hexa.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file fulladder.vhd
+    Info (12022): Found design unit 1: fulladder-behave_3 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/fulladder.vhd Line: 11
+    Info (12023): Found entity 1: fulladder File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/fulladder.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file fsm.vhd
+    Info (12022): Found design unit 1: FSM-struc_2 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/FSM.vhd Line: 24
+    Info (12023): Found entity 1: FSM File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/FSM.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file ffd.vhd
+    Info (12022): Found design unit 1: ffd-behave File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/ffd.vhd Line: 11
+    Info (12023): Found entity 1: ffd File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/ffd.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file enganche.vhd
+    Info (12022): Found design unit 1: enganche-structural File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/enganche.vhd Line: 9
+    Info (12023): Found entity 1: enganche File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/enganche.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file divisor5millones.vhd
+    Info (12022): Found design unit 1: divisor5millones-struc_0 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/divisor5millones.vhd Line: 11
+    Info (12023): Found entity 1: divisor5millones File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/divisor5millones.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file divisor500mil.vhd
+    Info (12022): Found design unit 1: divisor500mil-behave_0 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/divisor500mil.vhd Line: 14
+    Info (12023): Found entity 1: divisor500mil File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/divisor500mil.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file divisor.vhd
+    Info (12022): Found design unit 1: divisor-behave_0 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/divisor.vhd Line: 14
+    Info (12023): Found entity 1: divisor File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/divisor.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file detec_fs.vhd
+    Info (12022): Found design unit 1: detec_fs-structural File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/detec_fs.vhd Line: 9
+    Info (12023): Found entity 1: detec_fs File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/detec_fs.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file decodificador.vhd
+    Info (12022): Found design unit 1: decodificador-struc_4 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/decodificador.vhd Line: 10
+    Info (12023): Found entity 1: decodificador File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/decodificador.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file counter_mod.vhd
+    Info (12022): Found design unit 1: counter_mod-structural File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/counter_mod.vhd Line: 14
+    Info (12023): Found entity 1: counter_mod File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/counter_mod.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file counter.vhd
+    Info (12022): Found design unit 1: counter-struc File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/counter.vhd Line: 14
+    Info (12023): Found entity 1: counter File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/counter.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file contador4.vhd
+    Info (12022): Found design unit 1: contador4-struc_3 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador4.vhd Line: 12
+    Info (12023): Found entity 1: contador4 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador4.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file contador10.vhd
+    Info (12022): Found design unit 1: contador10-circuito File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador10.vhd Line: 13
+    Info (12023): Found entity 1: contador10 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador10.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file contador.vhd
+    Info (12022): Found design unit 1: contador-struc File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador.vhd Line: 14
+    Info (12023): Found entity 1: contador File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file comparador1.vhd
+    Info (12022): Found design unit 1: comparador1-struc_3 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/comparador1.vhd Line: 9
+    Info (12023): Found entity 1: comparador1 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/comparador1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file comparador.vhd
+    Info (12022): Found design unit 1: comparador-struc_3 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/comparador.vhd Line: 9
+    Info (12023): Found entity 1: comparador File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/comparador.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file codificador.vhd
+    Info (12022): Found design unit 1: codificador-struc_2 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/codificador.vhd Line: 10
+    Info (12023): Found entity 1: codificador File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/codificador.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file bintobcd.vhd
+    Info (12022): Found design unit 1: bintobcd-structural File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/bintobcd.vhd Line: 9
+    Info (12023): Found entity 1: bintobcd File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/bintobcd.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file adder_completo.vhd
+    Info (12022): Found design unit 1: adder_completo-struc_2 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/adder_completo.vhd Line: 13
+    Info (12023): Found entity 1: adder_completo File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/adder_completo.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file adder.vhd
+    Info (12022): Found design unit 1: adder-struc_0 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/adder.vhd Line: 11
+    Info (12023): Found entity 1: adder File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/adder.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file mux2_1.vhd
+    Info (12022): Found design unit 1: mux2_1-struc_6 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux2_1.vhd Line: 10
+    Info (12023): Found entity 1: mux2_1 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/mux2_1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file registro_tipo_producto.vhd
+    Info (12022): Found design unit 1: registro_tipo_producto-circuito File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro_tipo_producto.vhd Line: 11
+    Info (12023): Found entity 1: registro_tipo_producto File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/registro_tipo_producto.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file maquina_de_estado.vhd
+    Info (12022): Found design unit 1: maquina_de_estado-structura File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maquina_de_estado.vhd Line: 40
+    Info (12023): Found entity 1: maquina_de_estado File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maquina_de_estado.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file hexa_0.vhd
+    Info (12022): Found design unit 1: hexa_0-structural_0 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/hexa_0.vhd Line: 9
+    Info (12023): Found entity 1: hexa_0 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/hexa_0.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file my_componentsdeladder_completo.vhd
+    Info (12022): Found design unit 1: my_componentsdeladder_completo File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentsdeladder_completo.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file my_componentdelvga_sync.vhd
+    Info (12022): Found design unit 1: my_componentdelvga_sync File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentdelvga_sync.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file my_componentdeladder.vhd
+    Info (12022): Found design unit 1: my_componentdeladder File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentdeladder.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file my_circuitsdelinput_eval.vhd
+    Info (12022): Found design unit 1: my_circuitsdelinput_eval File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_circuitsdelinput_eval.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file my_circuitdelvga_comp.vhd
+    Info (12022): Found design unit 1: my_circuitdelvga_comp File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_circuitdelvga_comp.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file my_componentsdelteclado.vhd
+    Info (12022): Found design unit 1: my_componentsdelteclado File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentsdelteclado.vhd Line: 4
+Info (12021): Found 1 design units, including 0 entities, in source file my_componentsdelmaq_eg1.vhd
+    Info (12022): Found design unit 1: my_componentsdelmaq_eg1 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/my_componentsdelmaq_eg1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file maq_eg1.vhd
+    Info (12022): Found design unit 1: maq_eg1-structural File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 30
+    Info (12023): Found entity 1: maq_eg1 File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 6
+Info (12127): Elaborating entity "maq_eg1" for the top level hierarchy
+Info (12128): Elaborating entity "teclado" for hierarchy "teclado:teclado1" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 51
+Info (12128): Elaborating entity "divisor5millones" for hierarchy "teclado:teclado1|divisor5millones:U0" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 39
+Info (12128): Elaborating entity "synchronizer" for hierarchy "teclado:teclado1|synchronizer:U1" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 40
+Info (12128): Elaborating entity "codificador" for hierarchy "teclado:teclado1|codificador:U2" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 41
+Info (12128): Elaborating entity "contador4" for hierarchy "teclado:teclado1|contador4:U3" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 42
+Info (12128): Elaborating entity "decodificador" for hierarchy "teclado:teclado1|decodificador:U4" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 43
+Info (12128): Elaborating entity "mux4a1" for hierarchy "teclado:teclado1|mux4a1:U5" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 44
+Info (12128): Elaborating entity "hexa_0" for hierarchy "teclado:teclado1|hexa_0:U10" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 49
+Info (12128): Elaborating entity "mux2_1" for hierarchy "teclado:teclado1|mux2_1:U11" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/teclado.vhd Line: 50
+Info (12128): Elaborating entity "input_eval" for hierarchy "input_eval:input_e" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 52
+Info (12128): Elaborating entity "divisor500mil" for hierarchy "input_eval:input_e|divisor500mil:I0" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 128
+Info (12128): Elaborating entity "ffd" for hierarchy "input_eval:input_e|ffd:I1" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 130
+Info (12128): Elaborating entity "registro4" for hierarchy "input_eval:input_e|registro4:I2" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 132
+Info (12128): Elaborating entity "comparador" for hierarchy "input_eval:input_e|comparador:I3" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 134
+Info (12128): Elaborating entity "maquina_de_estado" for hierarchy "input_eval:input_e|maquina_de_estado:IMAQ" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 151
+Info (12128): Elaborating entity "mux2a1" for hierarchy "input_eval:input_e|mux2a1:I11" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 172
+Info (12128): Elaborating entity "adder_completo" for hierarchy "input_eval:input_e|adder_completo:I17" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 176
+Info (12128): Elaborating entity "adder" for hierarchy "input_eval:input_e|adder_completo:I17|adder:U0" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/adder_completo.vhd Line: 19
+Info (12128): Elaborating entity "fulladder" for hierarchy "input_eval:input_e|adder_completo:I17|adder:U0|fulladder:\gen0:0:U0" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/adder.vhd Line: 16
+Info (12128): Elaborating entity "registro8" for hierarchy "input_eval:input_e|registro8:I16" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 185
+Info (12128): Elaborating entity "bintobcd" for hierarchy "input_eval:input_e|bintobcd:I18" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 188
+Info (12128): Elaborating entity "hexa" for hierarchy "input_eval:input_e|hexa:I19" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 189
+Info (12128): Elaborating entity "counter" for hierarchy "input_eval:input_e|counter:I22" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 194
+Info (12128): Elaborating entity "contador10" for hierarchy "input_eval:input_e|contador10:I24" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 209
+Info (12128): Elaborating entity "comparador1" for hierarchy "input_eval:input_e|comparador1:I27" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 215
+Info (12128): Elaborating entity "detec_fs" for hierarchy "input_eval:input_e|detec_fs:I31" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 221
+Info (12128): Elaborating entity "enganche" for hierarchy "input_eval:input_e|enganche:I33" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 223
+Info (12128): Elaborating entity "counter_mod" for hierarchy "input_eval:input_e|counter_mod:I32" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 227
+Info (12128): Elaborating entity "registro_tipo_producto" for hierarchy "input_eval:input_e|registro_tipo_producto:I34" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 240
+Info (12128): Elaborating entity "restador" for hierarchy "input_eval:input_e|restador:resta" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/input_eval.vhd Line: 259
+Info (12128): Elaborating entity "mux4a1_vuelto" for hierarchy "input_eval:input_e|restador:resta|mux4a1_vuelto:U0" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/restador.vhd Line: 19
+Info (12128): Elaborating entity "complemento_dos" for hierarchy "input_eval:input_e|restador:resta|complemento_dos:U1" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/restador.vhd Line: 20
+Info (12128): Elaborating entity "registro_vuelto" for hierarchy "input_eval:input_e|restador:resta|registro_vuelto:U2" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/restador.vhd Line: 22
+Info (12128): Elaborating entity "VGA_MAQUINA" for hierarchy "VGA_MAQUINA:vga_maqui" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 53
+Info (12128): Elaborating entity "vga_sync" for hierarchy "VGA_MAQUINA:vga_maqui|vga_sync:A1" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/VGA_MAQUINA.vhd Line: 84
+Info (12128): Elaborating entity "divisor" for hierarchy "VGA_MAQUINA:vga_maqui|vga_sync:A1|divisor:U0" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/vga_sync.vhd Line: 27
+Info (12128): Elaborating entity "contador" for hierarchy "VGA_MAQUINA:vga_maqui|vga_sync:A1|contador:U1" File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/vga_sync.vhd Line: 28
+Info (284007): State machine "|maq_eg1|input_eval:input_e|maquina_de_estado:IMAQ|state_reg" will be implemented as a safe state machine. File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maquina_de_estado.vhd Line: 42
+Info (13000): Registers with preset signals will power-up high File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/contador10.vhd Line: 18
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "D_dec[1]" is stuck at GND File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 9
+    Warning (13410): Pin "D_uni_p" is stuck at GND File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 11
+    Warning (13410): Pin "D_uni_cent[0]" is stuck at GND File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 13
+    Warning (13410): Pin "D_uni_cent[1]" is stuck at GND File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 13
+    Warning (13410): Pin "D_uni_cent[2]" is stuck at GND File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 13
+    Warning (13410): Pin "D_uni_cent[3]" is stuck at GND File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 13
+    Warning (13410): Pin "D_uni_cent[4]" is stuck at GND File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 13
+    Warning (13410): Pin "D_uni_cent[5]" is stuck at GND File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 13
+    Warning (13410): Pin "D_uni_cent[6]" is stuck at VCC File: C:/Users/ÁNGEL ARTURO/Desktop/DISEÑO DIGITAL 2019-1/LABORATORIO/PROYECTO/Ultimito/EX4/maq_eg1.vhd Line: 13
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 1495 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 7 input pins
+    Info (21059): Implemented 61 output pins
+    Info (21061): Implemented 1427 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 5005 megabytes
+    Info: Processing ended: Tue Jul 09 05:28:56 2019
+    Info: Elapsed time: 00:00:38
+    Info: Total CPU time (on all processors): 00:01:04
+
+

@@ -1,0 +1,1755 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dimar/Desktop/Proyecto/EX4/simulation/modelsim
+Eadder
+Z1 w1561044105
+Z2 DPx4 work 20 my_componentdeladder 0 22 _Fa37kFaNQbZWBAf9d7K41
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/dimar/Desktop/Proyecto/EX4/adder.vhd
+Z6 FC:/Users/dimar/Desktop/Proyecto/EX4/adder.vhd
+l0
+L5
+VL:mZH3=]zAbb8lTM5nL@h0
+!s100 eXbBMoBJ;:_;oB?7gdBZ=1
+Z7 OV;C;10.4b;61
+31
+Z8 !s110 1562633492
+!i10b 1
+Z9 !s108 1562633492.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/adder.vhd|
+Z11 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/adder.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Astruc_0
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 L:mZH3=]zAbb8lTM5nL@h0
+l13
+L11
+VjNAKZ797AY0OIS5[>6_z>2
+!s100 ]NXT1Le4M=E;990:4MCN?1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eadder_completo
+Z14 w1562565836
+Z15 DPx4 work 30 my_componentsdeladder_completo 0 22 ;Q5PBf[7gS2RiJ1U7CEYH1
+R3
+R4
+R0
+Z16 8C:/Users/dimar/Desktop/Proyecto/EX4/adder_completo.vhd
+Z17 FC:/Users/dimar/Desktop/Proyecto/EX4/adder_completo.vhd
+l0
+L5
+VIe36=TZeCLM>L_E0<ceiJ2
+!s100 _W4SD3]LogOGhV8813Lei0
+R7
+31
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/adder_completo.vhd|
+Z19 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/adder_completo.vhd|
+!i113 1
+R12
+R13
+Astruc_2
+R15
+R3
+R4
+DEx4 work 14 adder_completo 0 22 Ie36=TZeCLM>L_E0<ceiJ2
+l18
+L13
+V6j8ViP2h75GQ@7T`P37I:3
+!s100 c1:8c9o:?:E?LU5N5;SZ>1
+R7
+31
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Ebintobcd
+Z20 w1560882552
+R3
+R4
+R0
+Z21 8C:/Users/dimar/Desktop/Proyecto/EX4/bintobcd.vhd
+Z22 FC:/Users/dimar/Desktop/Proyecto/EX4/bintobcd.vhd
+l0
+L4
+V8=Nmb5Fc98a^KlMfE919k3
+!s100 91Z][ez3<5EJX=bz8B3571
+R7
+31
+Z23 !s110 1562633491
+!i10b 1
+Z24 !s108 1562633491.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/bintobcd.vhd|
+Z26 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/bintobcd.vhd|
+!i113 1
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 8 bintobcd 0 22 8=Nmb5Fc98a^KlMfE919k3
+l13
+L9
+Vd91CHHXCk>ShnVDAX;BiC3
+!s100 AS7deGflgT[hd1`fXmTk`3
+R7
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R12
+R13
+Ecodificador
+Z27 w1560289438
+Z28 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+R0
+Z29 8C:/Users/dimar/Desktop/Proyecto/EX4/codificador.vhd
+Z30 FC:/Users/dimar/Desktop/Proyecto/EX4/codificador.vhd
+l0
+L5
+VfU<C]a:Y<ANblzH^B=RYE0
+!s100 F[4;U=chnk<8hk7XNa<[_1
+R7
+31
+R23
+!i10b 1
+R24
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/codificador.vhd|
+Z32 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/codificador.vhd|
+!i113 1
+R12
+R13
+Astruc_2
+R28
+R3
+R4
+DEx4 work 11 codificador 0 22 fU<C]a:Y<ANblzH^B=RYE0
+l12
+L10
+Vg1[O`>K7;IF`aOfILF0cS2
+!s100 TgMQgWBOc_nkeX:F1^F8J1
+R7
+31
+R23
+!i10b 1
+R24
+R31
+R32
+!i113 1
+R12
+R13
+Ecomparador
+R20
+R3
+R4
+R0
+Z33 8C:/Users/dimar/Desktop/Proyecto/EX4/comparador.vhd
+Z34 FC:/Users/dimar/Desktop/Proyecto/EX4/comparador.vhd
+l0
+L4
+VEL`L_3b?UVWZS5N^5JaBo1
+!s100 W=nkm3Q@SCeG?XY4MEYjz1
+R7
+31
+R23
+!i10b 1
+R24
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/comparador.vhd|
+Z36 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/comparador.vhd|
+!i113 1
+R12
+R13
+Astruc_3
+R3
+R4
+DEx4 work 10 comparador 0 22 EL`L_3b?UVWZS5N^5JaBo1
+l10
+L9
+VJ6=3`Y3;i?h1KRi<g7WmT1
+!s100 G3liaRi=Uz0C@^RT>CLn_1
+R7
+31
+R23
+!i10b 1
+R24
+R35
+R36
+!i113 1
+R12
+R13
+Ecomparador1
+R20
+R3
+R4
+R0
+Z37 8C:/Users/dimar/Desktop/Proyecto/EX4/comparador1.vhd
+Z38 FC:/Users/dimar/Desktop/Proyecto/EX4/comparador1.vhd
+l0
+L4
+VU`Sfd30affl3<4GeRNE=C1
+!s100 J@RV6NZ`>CMmaQ5amh9Z@1
+R7
+31
+R23
+!i10b 1
+R24
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/comparador1.vhd|
+Z40 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/comparador1.vhd|
+!i113 1
+R12
+R13
+Astruc_3
+R3
+R4
+DEx4 work 11 comparador1 0 22 U`Sfd30affl3<4GeRNE=C1
+l10
+L9
+V_Mk=Vdz9;Q<V]Kf;?HzzW2
+!s100 mP;nab]g_:jL4hYl::OK41
+R7
+31
+R23
+!i10b 1
+R24
+R39
+R40
+!i113 1
+R12
+R13
+Ecomplemento_dos
+Z41 w1562554816
+R28
+R3
+R4
+R0
+Z42 8C:/Users/dimar/Desktop/Proyecto/EX4/complemento_dos.vhd
+Z43 FC:/Users/dimar/Desktop/Proyecto/EX4/complemento_dos.vhd
+l0
+L5
+V`L]HdT4e_VhIBGOifDT@l1
+!s100 djXFIaMziWn7XeL0k@=bf0
+R7
+31
+Z44 !s110 1562633489
+!i10b 1
+Z45 !s108 1562633489.000000
+Z46 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/complemento_dos.vhd|
+Z47 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/complemento_dos.vhd|
+!i113 1
+R12
+R13
+Astructural
+R28
+R3
+R4
+DEx4 work 15 complemento_dos 0 22 `L]HdT4e_VhIBGOifDT@l1
+l12
+L10
+VTA[nC@lP;9zl51fEaklXD1
+!s100 `;Qd<cSYJ7c5<n>J<NR7S3
+R7
+31
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R12
+R13
+Econtador
+Z48 w1559087254
+R28
+R3
+R4
+R0
+Z49 8C:/Users/dimar/Desktop/Proyecto/EX4/contador.vhd
+Z50 FC:/Users/dimar/Desktop/Proyecto/EX4/contador.vhd
+l0
+L6
+VZIX01Ca::Zc1cCEPeCW^?3
+!s100 W=Q;WXgW;ZACN73=L[<lh1
+R7
+31
+R23
+!i10b 1
+Z51 !s108 1562633490.000000
+Z52 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/contador.vhd|
+Z53 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/contador.vhd|
+!i113 1
+R12
+R13
+Astruc
+R28
+R3
+R4
+DEx4 work 8 contador 0 22 ZIX01Ca::Zc1cCEPeCW^?3
+l16
+L14
+VJD]Uf:d40V>]_omAA]MZ:1
+!s100 8F1Nic18=X2SfRC@X?D`n0
+R7
+31
+R23
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R12
+R13
+Econtador10
+Z54 w1560882550
+R28
+R3
+R4
+R0
+Z55 8C:/Users/dimar/Desktop/Proyecto/EX4/contador10.vhd
+Z56 FC:/Users/dimar/Desktop/Proyecto/EX4/contador10.vhd
+l0
+L6
+VRn=BoR>z7]7HNOj>RN=7[0
+!s100 lV?_?Z`>D:3]9CEOLISTR2
+R7
+31
+Z57 !s110 1562633490
+!i10b 1
+R51
+Z58 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/contador10.vhd|
+Z59 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/contador10.vhd|
+!i113 1
+R12
+R13
+Acircuito
+R28
+R3
+R4
+DEx4 work 10 contador10 0 22 Rn=BoR>z7]7HNOj>RN=7[0
+l15
+L13
+V`P?=jJ;:cW6ojF;e=LB4L2
+!s100 Y3a6Imgi>`3laBBZg=i=k1
+R7
+31
+R57
+!i10b 1
+R51
+R58
+R59
+!i113 1
+R12
+R13
+Econtador4
+R27
+R28
+R3
+R4
+R0
+Z60 8C:/Users/dimar/Desktop/Proyecto/EX4/contador4.vhd
+Z61 FC:/Users/dimar/Desktop/Proyecto/EX4/contador4.vhd
+l0
+L5
+VDDNGaoOl_aj;S^GaD;jGf3
+!s100 dWS8?UV?MRkUWSY:Hhm7D2
+R7
+31
+R57
+!i10b 1
+R51
+Z62 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/contador4.vhd|
+Z63 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/contador4.vhd|
+!i113 1
+R12
+R13
+Astruc_3
+R28
+R3
+R4
+DEx4 work 9 contador4 0 22 DDNGaoOl_aj;S^GaD;jGf3
+l14
+L12
+V^5H6CAXaMR?D=z_dRV0Zd2
+!s100 9FGOgRXPH=^=UK5^@G]WH0
+R7
+31
+R57
+!i10b 1
+R51
+R62
+R63
+!i113 1
+R12
+R13
+Ecounter
+Z64 w1562629985
+R28
+R3
+R4
+R0
+Z65 8C:/Users/dimar/Desktop/Proyecto/EX4/counter.vhd
+Z66 FC:/Users/dimar/Desktop/Proyecto/EX4/counter.vhd
+l0
+L6
+VI9anEHEeR4WRCVc[Om8mb0
+!s100 zLAnLmVFVLUd1C_eEkzT_0
+R7
+31
+R57
+!i10b 1
+R51
+Z67 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/counter.vhd|
+Z68 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/counter.vhd|
+!i113 1
+R12
+R13
+Astruc
+R28
+R3
+R4
+DEx4 work 7 counter 0 22 I9anEHEeR4WRCVc[Om8mb0
+l16
+L14
+V`AOAUJ_66en92HPWTfM9:2
+!s100 BVh=BK6=:8l=QSF11Q[>60
+R7
+31
+R57
+!i10b 1
+R51
+R67
+R68
+!i113 1
+R12
+R13
+Ecounter_mod
+Z69 w1562629507
+R28
+R3
+R4
+R0
+Z70 8C:/Users/dimar/Desktop/Proyecto/EX4/counter_mod.vhd
+Z71 FC:/Users/dimar/Desktop/Proyecto/EX4/counter_mod.vhd
+l0
+L5
+V06UNfH3JZ[YP0ESE:TCmW2
+!s100 IoYaLIg==Ql8QWT?H_7Te0
+R7
+31
+R57
+!i10b 1
+R51
+Z72 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/counter_mod.vhd|
+Z73 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/counter_mod.vhd|
+!i113 1
+R12
+R13
+Astructural
+R28
+R3
+R4
+DEx4 work 11 counter_mod 0 22 06UNfH3JZ[YP0ESE:TCmW2
+l19
+L14
+VfzKGcF:LN7T96YWlD:B;20
+!s100 8FKF;kc0cakM1dQgnB7[g3
+R7
+31
+R57
+!i10b 1
+R51
+R72
+R73
+!i113 1
+R12
+R13
+Edecodificador
+R27
+R28
+R3
+R4
+R0
+Z74 8C:/Users/dimar/Desktop/Proyecto/EX4/decodificador.vhd
+Z75 FC:/Users/dimar/Desktop/Proyecto/EX4/decodificador.vhd
+l0
+L5
+V?3[i2oWM7@Co8:LR4`NLn0
+!s100 OaI9Z<iT=bhX^mI9z8mVC1
+R7
+31
+R57
+!i10b 1
+R51
+Z76 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/decodificador.vhd|
+Z77 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/decodificador.vhd|
+!i113 1
+R12
+R13
+Astruc_4
+R28
+R3
+R4
+DEx4 work 13 decodificador 0 22 ?3[i2oWM7@Co8:LR4`NLn0
+l12
+L10
+V=YDbTCfkDnh2n=fCNgO]W3
+!s100 :?LY_V^`Ra2;kPOM5h78J1
+R7
+31
+R57
+!i10b 1
+R51
+R76
+R77
+!i113 1
+R12
+R13
+Edetec_fs
+Z78 w1560906359
+R3
+R4
+R0
+Z79 8C:/Users/dimar/Desktop/Proyecto/EX4/detec_fs.vhd
+Z80 FC:/Users/dimar/Desktop/Proyecto/EX4/detec_fs.vhd
+l0
+L4
+V?8BbPTk@NLJBA`_52PL;b0
+!s100 a=Ag^C_Al_4YmN13cABn=2
+R7
+31
+R57
+!i10b 1
+R51
+Z81 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/detec_fs.vhd|
+Z82 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/detec_fs.vhd|
+!i113 1
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 8 detec_fs 0 22 ?8BbPTk@NLJBA`_52PL;b0
+l11
+L9
+VZB6X0B7SE>j=O>^5<U@MH2
+!s100 [aZXhfAFFPX`n_`E>cYdT1
+R7
+31
+R57
+!i10b 1
+R51
+R81
+R82
+!i113 1
+R12
+R13
+Edivisor
+Z83 w1558488522
+R28
+R3
+R4
+R0
+Z84 8C:/Users/dimar/Desktop/Proyecto/EX4/divisor.vhd
+Z85 FC:/Users/dimar/Desktop/Proyecto/EX4/divisor.vhd
+l0
+L6
+V1GcFhaD@]CR_fTP?f77K;0
+!s100 0Wf[kS>8[zXMC[GQ^7ID12
+R7
+31
+R57
+!i10b 1
+R51
+Z86 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/divisor.vhd|
+Z87 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/divisor.vhd|
+!i113 1
+R12
+R13
+Abehave_0
+R28
+R3
+R4
+DEx4 work 7 divisor 0 22 1GcFhaD@]CR_fTP?f77K;0
+l17
+L14
+VGB2]j0]KMFBABEamIY_5F1
+!s100 o9eGn?`K:7zU`SzgET`][0
+R7
+31
+R57
+!i10b 1
+R51
+R86
+R87
+!i113 1
+R12
+R13
+Edivisor500mil
+Z88 w1561051428
+R28
+R3
+R4
+R0
+Z89 8C:/Users/dimar/Desktop/Proyecto/EX4/divisor500mil.vhd
+Z90 FC:/Users/dimar/Desktop/Proyecto/EX4/divisor500mil.vhd
+l0
+L6
+VXk6[JBIdno=3mcfPeH_a:2
+!s100 :E]d@ZfdbjX?4JGz3h`e^3
+R7
+31
+R57
+!i10b 1
+R51
+Z91 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/divisor500mil.vhd|
+Z92 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/divisor500mil.vhd|
+!i113 1
+R12
+R13
+Abehave_0
+R28
+R3
+R4
+DEx4 work 13 divisor500mil 0 22 Xk6[JBIdno=3mcfPeH_a:2
+l17
+L14
+V=2D6oQ[jNLJclK]O2oTC13
+!s100 Z>@IZOA?;AI21@f]hc7[40
+R7
+31
+R57
+!i10b 1
+R51
+R91
+R92
+!i113 1
+R12
+R13
+Edivisor5millones
+R27
+R28
+R3
+R4
+R0
+Z93 8C:/Users/dimar/Desktop/Proyecto/EX4/divisor5millones.vhd
+Z94 FC:/Users/dimar/Desktop/Proyecto/EX4/divisor5millones.vhd
+l0
+L5
+VH_G93iM]oO4?M4JoO5N2B1
+!s100 5cM?k?[BZd>OPJ=o_T<oc0
+R7
+31
+R57
+!i10b 1
+R51
+Z95 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/divisor5millones.vhd|
+Z96 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/divisor5millones.vhd|
+!i113 1
+R12
+R13
+Astruc_0
+R28
+R3
+R4
+DEx4 work 16 divisor5millones 0 22 H_G93iM]oO4?M4JoO5N2B1
+l14
+L11
+Vj:mhKcI6>@FE_WR1nW3?V2
+!s100 Q6_@fSl^D5Yl1:Ko;Bo933
+R7
+31
+R57
+!i10b 1
+R51
+R95
+R96
+!i113 1
+R12
+R13
+Eenganche
+Z97 w1560907225
+R3
+R4
+R0
+Z98 8C:/Users/dimar/Desktop/Proyecto/EX4/enganche.vhd
+Z99 FC:/Users/dimar/Desktop/Proyecto/EX4/enganche.vhd
+l0
+L4
+VdJbGYXJoERblmiKIQjYiN0
+!s100 z9IH`FUbYIY51hFiG^<5E0
+R7
+31
+R57
+!i10b 1
+R51
+Z100 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/enganche.vhd|
+Z101 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/enganche.vhd|
+!i113 1
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 8 enganche 0 22 dJbGYXJoERblmiKIQjYiN0
+l11
+L9
+VPiBRRT8zo_c7Z1zUZoVP[3
+!s100 7egi@UmK=54jaC?BdZl7[2
+R7
+31
+R57
+!i10b 1
+R51
+R100
+R101
+!i113 1
+R12
+R13
+Effd
+Z102 w1560882554
+R3
+R4
+R0
+Z103 8C:/Users/dimar/Desktop/Proyecto/EX4/ffd.vhd
+Z104 FC:/Users/dimar/Desktop/Proyecto/EX4/ffd.vhd
+l0
+L4
+VU9giRibofPYi[9d9k0EOc3
+!s100 =AMU1^^;MYc>h8G:eW@ch2
+R7
+31
+R57
+!i10b 1
+R51
+Z105 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/ffd.vhd|
+Z106 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/ffd.vhd|
+!i113 1
+R12
+R13
+Abehave
+R3
+R4
+DEx4 work 3 ffd 0 22 U9giRibofPYi[9d9k0EOc3
+l13
+L11
+Va8mLZO[TU]<g6]S]NS81R1
+!s100 =JV>eNLUSz_CI2?CYeS4h3
+R7
+31
+R57
+!i10b 1
+R51
+R105
+R106
+!i113 1
+R12
+R13
+Efulladder
+R102
+R3
+R4
+R0
+Z107 8C:/Users/dimar/Desktop/Proyecto/EX4/fulladder.vhd
+Z108 FC:/Users/dimar/Desktop/Proyecto/EX4/fulladder.vhd
+l0
+L4
+VCEV>goJ?Wf]?enm]YPiVN0
+!s100 ^PU2iJF8V^7YKMVZLN_L61
+R7
+31
+R57
+!i10b 1
+R45
+Z109 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/fulladder.vhd|
+Z110 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/fulladder.vhd|
+!i113 1
+R12
+R13
+Abehave_3
+R3
+R4
+DEx4 work 9 fulladder 0 22 CEV>goJ?Wf]?enm]YPiVN0
+l12
+L11
+VIC9Fb8l0Yn_<OY32W0RKV3
+!s100 o:W^jQdXPnXz4X1e3?T?h2
+R7
+31
+R57
+!i10b 1
+R45
+R109
+R110
+!i113 1
+R12
+R13
+Ehexa
+R102
+R3
+R4
+R0
+Z111 8C:/Users/dimar/Desktop/Proyecto/EX4/hexa.vhd
+Z112 FC:/Users/dimar/Desktop/Proyecto/EX4/hexa.vhd
+l0
+L23
+VY>Li]LV_I8RbA`OXmKz@_1
+!s100 B0c=z;We?L5X4Wb297BVV3
+R7
+31
+R44
+!i10b 1
+R45
+Z113 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/hexa.vhd|
+Z114 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/hexa.vhd|
+!i113 1
+R12
+R13
+Astructural_0
+R3
+R4
+DEx4 work 4 hexa 0 22 Y>Li]LV_I8RbA`OXmKz@_1
+l32
+L28
+VE`j>2abnFAJ^ikB`^LCLG0
+!s100 _h;z2hH0IDUV5ER6R2FJf3
+R7
+31
+R44
+!i10b 1
+R45
+R113
+R114
+!i113 1
+R12
+R13
+Ehexa_0
+Z115 w1561053477
+R3
+R4
+R0
+Z116 8C:/Users/dimar/Desktop/Proyecto/EX4/hexa_0.vhd
+Z117 FC:/Users/dimar/Desktop/Proyecto/EX4/hexa_0.vhd
+l0
+L4
+V:5cDD1oSjK9_I1<NA?6mg3
+!s100 GOjeMOGM@<@Z8]gn9110?0
+R7
+31
+R23
+!i10b 1
+R24
+Z118 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/hexa_0.vhd|
+Z119 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/hexa_0.vhd|
+!i113 1
+R12
+R13
+Astructural_0
+R3
+R4
+DEx4 work 6 hexa_0 0 22 :5cDD1oSjK9_I1<NA?6mg3
+l13
+L9
+Vc5_SPVeW2N<WKSQddo>X@0
+!s100 GhGRnWFGOoFaR9ijz]omb2
+R7
+31
+R23
+!i10b 1
+R24
+R118
+R119
+!i113 1
+R12
+R13
+Einput_eval
+Z120 w1562629505
+R28
+Z121 DPx4 work 24 my_circuitsdelinput_eval 0 22 =ESF<@NRcLWcF?7T@z8WP3
+R3
+R4
+R0
+Z122 8C:/Users/dimar/Desktop/Proyecto/EX4/input_eval.vhd
+Z123 FC:/Users/dimar/Desktop/Proyecto/EX4/input_eval.vhd
+l0
+L6
+VIXAJ7NkR2_H9DHENW1InO1
+!s100 Qo5kH`gDLl56DmULFK_8z2
+R7
+31
+R8
+!i10b 1
+R9
+Z124 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/input_eval.vhd|
+Z125 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/input_eval.vhd|
+!i113 1
+R12
+R13
+Abehav
+R28
+R121
+R3
+R4
+DEx4 work 10 input_eval 0 22 IXAJ7NkR2_H9DHENW1InO1
+l106
+L30
+VCZA;[BZ`dXddJ7?6OSDm91
+!s100 <ndi06]P<33ZB8FhU>FMo2
+R7
+31
+R8
+!i10b 1
+R9
+R124
+R125
+!i113 1
+R12
+R13
+Emaq_eg1
+Z126 w1562620738
+R28
+Z127 DPx4 work 23 my_componentsdelmaq_eg1 0 22 6W2Zz:ieWdQ<jU3j`iIA]3
+R3
+R4
+R0
+Z128 8C:/Users/dimar/Desktop/Proyecto/EX4/maq_eg1.vhd
+Z129 FC:/Users/dimar/Desktop/Proyecto/EX4/maq_eg1.vhd
+l0
+L6
+V=U[4?^0bo4H^^MT@=K2XG1
+!s100 :7FgVD[z>MBS;E47C@??U3
+R7
+31
+R8
+!i10b 1
+R9
+Z130 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/maq_eg1.vhd|
+Z131 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/maq_eg1.vhd|
+!i113 1
+R12
+R13
+Astructural
+R28
+R127
+R3
+R4
+DEx4 work 7 maq_eg1 0 22 =U[4?^0bo4H^^MT@=K2XG1
+l47
+L28
+VXAY`EQMNae4ooj@bHk3]^1
+!s100 MA4A`;h1zbB>B066>?U@02
+R7
+31
+R8
+!i10b 1
+R9
+R130
+R131
+!i113 1
+R12
+R13
+Emaq_eg1_vhd_tst
+Z132 w1562633460
+R28
+R3
+R4
+R0
+Z133 8C:/Users/dimar/Desktop/Proyecto/EX4/simulation/modelsim/maq_eg1.vht
+Z134 FC:/Users/dimar/Desktop/Proyecto/EX4/simulation/modelsim/maq_eg1.vht
+l0
+L32
+V;HCAlh=YW>NZ5@agEMb>Z3
+!s100 9@Dh89G@`gSJ@X0Z9E0CA2
+R7
+31
+Z135 !s110 1562633493
+!i10b 1
+Z136 !s108 1562633493.000000
+Z137 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/simulation/modelsim/maq_eg1.vht|
+Z138 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/simulation/modelsim/maq_eg1.vht|
+!i113 1
+R12
+R13
+Amaq_eg1_arch
+R28
+R3
+R4
+DEx4 work 15 maq_eg1_vhd_tst 0 22 ;HCAlh=YW>NZ5@agEMb>Z3
+l74
+L34
+V]>`XmcFZ8d=n8[Q7YQNEK1
+!s100 @L;54;0ML5L9LhJVl9<`j3
+R7
+31
+R135
+!i10b 1
+R136
+R137
+R138
+!i113 1
+R12
+R13
+Emaquina_de_estado
+Z139 w1562630262
+R28
+R3
+R4
+R0
+Z140 8C:/Users/dimar/Desktop/Proyecto/EX4/maquina_de_estado.vhd
+Z141 FC:/Users/dimar/Desktop/Proyecto/EX4/maquina_de_estado.vhd
+l0
+L5
+VASXFcO^kgO_]e@6bB]fW=2
+!s100 cTRf5i:`WjY7LSV4>^T>S3
+R7
+31
+R23
+!i10b 1
+R24
+Z142 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/maquina_de_estado.vhd|
+Z143 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/maquina_de_estado.vhd|
+!i113 1
+R12
+R13
+Astructura
+R28
+R3
+R4
+DEx4 work 17 maquina_de_estado 0 22 ASXFcO^kgO_]e@6bB]fW=2
+l47
+L37
+Vnk1>HN>CFKbzY8P:_;hOe1
+!s100 ;:SnjZSR87njGgY<TXDok0
+R7
+31
+R23
+!i10b 1
+R24
+R142
+R143
+!i113 1
+R12
+R13
+Emux2_1
+Z144 w1561053408
+R3
+R4
+R0
+Z145 8C:/Users/dimar/Desktop/Proyecto/EX4/mux2_1.vhd
+Z146 FC:/Users/dimar/Desktop/Proyecto/EX4/mux2_1.vhd
+l0
+L4
+VzT6Ei1CI]BhPOFTbljE>@3
+!s100 Yem7XAg@lbQ42D75;]nU91
+R7
+31
+R23
+!i10b 1
+R24
+Z147 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/mux2_1.vhd|
+Z148 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/mux2_1.vhd|
+!i113 1
+R12
+R13
+Astruc_6
+R3
+R4
+DEx4 work 6 mux2_1 0 22 zT6Ei1CI]BhPOFTbljE>@3
+l11
+L10
+VCTE0oGS`2Uk_JQm42Gd@71
+!s100 o6MNeJL^a8PLH?9OSL3I10
+R7
+31
+R23
+!i10b 1
+R24
+R147
+R148
+!i113 1
+R12
+R13
+Emux2a1
+Z149 w1560908061
+R3
+R4
+R0
+Z150 8C:/Users/dimar/Desktop/Proyecto/EX4/mux2a1.vhd
+Z151 FC:/Users/dimar/Desktop/Proyecto/EX4/mux2a1.vhd
+l0
+L4
+VdR5NDDm1=54j`YIlb]5:D2
+!s100 >I5m5U=Q3D4UZjSe7>H<]0
+R7
+31
+R44
+!i10b 1
+R45
+Z152 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/mux2a1.vhd|
+Z153 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/mux2a1.vhd|
+!i113 1
+R12
+R13
+Astruc_0
+R3
+R4
+DEx4 work 6 mux2a1 0 22 dR5NDDm1=54j`YIlb]5:D2
+l13
+L11
+VLigHf>OEPaDR5`1XYLj<Y2
+!s100 XEGBFlI0dmi4MXkGXQVJ@1
+R7
+31
+R44
+!i10b 1
+R45
+R152
+R153
+!i113 1
+R12
+R13
+Emux4a1
+R27
+R3
+R4
+R0
+Z154 8C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1.vhd
+Z155 FC:/Users/dimar/Desktop/Proyecto/EX4/mux4a1.vhd
+l0
+L4
+VHSLjjSTaE4Z6AdjLfH<Mk1
+!s100 eH3LICLf2DJVd_hS1Ym`l0
+R7
+31
+R44
+!i10b 1
+R45
+Z156 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1.vhd|
+Z157 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1.vhd|
+!i113 1
+R12
+R13
+Astruc_5
+R3
+R4
+DEx4 work 6 mux4a1 0 22 HSLjjSTaE4Z6AdjLfH<Mk1
+l13
+L12
+VPQ3VRS^1Az48D7oLi^^PY3
+!s100 akn^Un3oV[iU3AN0kLd8E2
+R7
+31
+R44
+!i10b 1
+R45
+R156
+R157
+!i113 1
+R12
+R13
+Emux4a1_vuelto
+Z158 w1562555017
+R3
+R4
+R0
+Z159 8C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1_vuelto.vhd
+Z160 FC:/Users/dimar/Desktop/Proyecto/EX4/mux4a1_vuelto.vhd
+l0
+L4
+V^G9]]R4^XShz]z1zlcDH;0
+!s100 DZKSDj:HM5J:m6g77T9WN3
+R7
+31
+R44
+!i10b 1
+R45
+Z161 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1_vuelto.vhd|
+Z162 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1_vuelto.vhd|
+!i113 1
+R12
+R13
+Astruc
+R3
+R4
+DEx4 work 13 mux4a1_vuelto 0 22 ^G9]]R4^XShz]z1zlcDH;0
+l13
+L12
+VO7G^BU7ZEC6UNO_=f0:HG0
+!s100 la^S5DSNK8>=9ZjaW_YM^3
+R7
+31
+R44
+!i10b 1
+R45
+R161
+R162
+!i113 1
+R12
+R13
+Pmy_circuit
+R3
+R4
+w1560105190
+R0
+8C:/Users/dimar/Desktop/Proyecto/EX4/my_circuit.vhd
+FC:/Users/dimar/Desktop/Proyecto/EX4/my_circuit.vhd
+l0
+L4
+Vcz03XTo]d[cNdn0Sgc6Hm3
+!s100 <PJCHXX94DOIW]nEM<PJc1
+R7
+31
+R44
+!i10b 1
+R45
+!s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/my_circuit.vhd|
+!s107 C:/Users/dimar/Desktop/Proyecto/EX4/my_circuit.vhd|
+!i113 1
+R12
+R13
+Pmy_circuitsdelinput_eval
+R3
+R4
+R69
+R0
+8C:/Users/dimar/Desktop/Proyecto/EX4/my_circuitsdelinput_eval.vhd
+FC:/Users/dimar/Desktop/Proyecto/EX4/my_circuitsdelinput_eval.vhd
+l0
+L4
+V=ESF<@NRcLWcF?7T@z8WP3
+!s100 AR>Q?6gW^VF6WkAaDnbSo3
+R7
+31
+R8
+!i10b 1
+R24
+!s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/my_circuitsdelinput_eval.vhd|
+!s107 C:/Users/dimar/Desktop/Proyecto/EX4/my_circuitsdelinput_eval.vhd|
+!i113 1
+R12
+R13
+Pmy_componentdeladder
+R3
+R4
+w1561043969
+R0
+8C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdeladder.vhd
+FC:/Users/dimar/Desktop/Proyecto/EX4/my_componentdeladder.vhd
+l0
+L4
+V_Fa37kFaNQbZWBAf9d7K41
+!s100 DUfNOZX29AlgnljMkkZJ83
+R7
+31
+R23
+!i10b 1
+R24
+!s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdeladder.vhd|
+!s107 C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdeladder.vhd|
+!i113 1
+R12
+R13
+Pmy_componentdelvga_sync
+R3
+R4
+w1561042543
+R0
+8C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdelvga_sync.vhd
+FC:/Users/dimar/Desktop/Proyecto/EX4/my_componentdelvga_sync.vhd
+l0
+L4
+VGC]>M0_VYbY?AlQ>?oPSF2
+!s100 [Y6`_Gb@8Kk]fA`NIQXQX2
+R7
+31
+R23
+!i10b 1
+R24
+!s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdelvga_sync.vhd|
+!s107 C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdelvga_sync.vhd|
+!i113 1
+R12
+R13
+Pmy_components_vuelto
+R3
+R4
+w1562554365
+R0
+8C:/Users/dimar/Desktop/Proyecto/EX4/my_components_vuelto.vhd
+FC:/Users/dimar/Desktop/Proyecto/EX4/my_components_vuelto.vhd
+l0
+L4
+Vj4cmQZ:zn?o?ai:fcH17[2
+!s100 NHI=i`TCdkmU2]k]3IH1b3
+R7
+31
+R44
+!i10b 1
+R45
+!s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/my_components_vuelto.vhd|
+!s107 C:/Users/dimar/Desktop/Proyecto/EX4/my_components_vuelto.vhd|
+!i113 1
+R12
+R13
+Pmy_componentsdeladder_completo
+R3
+R4
+w1561044154
+R0
+8C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdeladder_completo.vhd
+FC:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdeladder_completo.vhd
+l0
+L4
+V;Q5PBf[7gS2RiJ1U7CEYH1
+!s100 B3BhM1HORY]?ICnhT8:;O2
+R7
+31
+R23
+!i10b 1
+R24
+!s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdeladder_completo.vhd|
+!s107 C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdeladder_completo.vhd|
+!i113 1
+R12
+R13
+Pmy_componentsdelmaq_eg1
+R3
+R4
+w1562552315
+R0
+8C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelmaq_eg1.vhd
+FC:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelmaq_eg1.vhd
+l0
+L4
+V6W2Zz:ieWdQ<jU3j`iIA]3
+!s100 RH4l3UoabQnd4B3Koj@gZ2
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelmaq_eg1.vhd|
+!s107 C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelmaq_eg1.vhd|
+!i113 1
+R12
+R13
+Pmy_componentsdelteclado
+R3
+R4
+w1561056646
+R0
+8C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelteclado.vhd
+FC:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelteclado.vhd
+l0
+L4
+V8U[LMIc9C[ICCUS]^A[;>2
+!s100 nldMgCTOiQ>n3RcX]UoE51
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelteclado.vhd|
+!s107 C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelteclado.vhd|
+!i113 1
+R12
+R13
+Eregistro4
+Z163 w1560882556
+R3
+R4
+R0
+Z164 8C:/Users/dimar/Desktop/Proyecto/EX4/registro4.vhd
+Z165 FC:/Users/dimar/Desktop/Proyecto/EX4/registro4.vhd
+l0
+L4
+V^:;beB@44M[<0K^1Rdh<F1
+!s100 37:dB<1foAkeQg;[CcclK1
+R7
+31
+R44
+!i10b 1
+R45
+Z166 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/registro4.vhd|
+Z167 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/registro4.vhd|
+!i113 1
+R12
+R13
+Abehave_2
+R3
+R4
+DEx4 work 9 registro4 0 22 ^:;beB@44M[<0K^1Rdh<F1
+l13
+L11
+V<SEoLhKB^<0=1DN^X^`Sh3
+!s100 mnBW9H6T]6@PVeV5Vm4>j3
+R7
+31
+R44
+!i10b 1
+R45
+R166
+R167
+!i113 1
+R12
+R13
+Eregistro8
+Z168 w1562559385
+R3
+R4
+R0
+Z169 8C:/Users/dimar/Desktop/Proyecto/EX4/registro.vhd
+Z170 FC:/Users/dimar/Desktop/Proyecto/EX4/registro.vhd
+l0
+L4
+VzoEKbmz<GCo91IAE;kg0U0
+!s100 85jkKHjdPi6[TZ];DV:ZZ2
+R7
+31
+R44
+!i10b 1
+R45
+Z171 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/registro.vhd|
+Z172 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/registro.vhd|
+!i113 1
+R12
+R13
+Abehave_1
+R3
+R4
+DEx4 work 9 registro8 0 22 zoEKbmz<GCo91IAE;kg0U0
+l13
+L11
+VZB@8E6hz:95S:kL22FFBS0
+!s100 AfIjUz:PKCn^?7l:5n@XD1
+R7
+31
+R44
+!i10b 1
+R45
+R171
+R172
+!i113 1
+R12
+R13
+Eregistro_tipo_producto
+Z173 w1561314358
+R3
+R4
+R0
+Z174 8C:/Users/dimar/Desktop/Proyecto/EX4/registro_tipo_producto.vhd
+Z175 FC:/Users/dimar/Desktop/Proyecto/EX4/registro_tipo_producto.vhd
+l0
+L4
+V5@N5@`NlVkmAGl0f3CkP@0
+!s100 6RGjBPPTSf[W842@;ER502
+R7
+31
+R23
+!i10b 1
+R24
+Z176 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/registro_tipo_producto.vhd|
+Z177 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/registro_tipo_producto.vhd|
+!i113 1
+R12
+R13
+Acircuito
+R3
+R4
+DEx4 work 22 registro_tipo_producto 0 22 5@N5@`NlVkmAGl0f3CkP@0
+l13
+L11
+VT[FG2R`Fen9jaPlZ[Y=AI1
+!s100 ^UgU<F_E=>HORLcBzB76=3
+R7
+31
+R23
+!i10b 1
+R24
+R176
+R177
+!i113 1
+R12
+R13
+Eregistro_vuelto
+Z178 w1562554911
+R3
+R4
+R0
+Z179 8C:/Users/dimar/Desktop/Proyecto/EX4/registro_vuelto.vhd
+Z180 FC:/Users/dimar/Desktop/Proyecto/EX4/registro_vuelto.vhd
+l0
+L4
+V57^MkkCKY^BI9gOPci0Ah3
+!s100 :?JF4T7:kcFTWoi5jfoT=3
+R7
+31
+R44
+!i10b 1
+R45
+Z181 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/registro_vuelto.vhd|
+Z182 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/registro_vuelto.vhd|
+!i113 1
+R12
+R13
+Astructural
+R3
+R4
+DEx4 work 15 registro_vuelto 0 22 57^MkkCKY^BI9gOPci0Ah3
+l13
+L11
+VVBHzimGzOK47hQf[fYJ[52
+!s100 QSAEn]LBHKmLc4dBeSFc00
+R7
+31
+R44
+!i10b 1
+R45
+R181
+R182
+!i113 1
+R12
+R13
+Erestador
+Z183 w1562554910
+Z184 DPx4 work 20 my_components_vuelto 0 22 j4cmQZ:zn?o?ai:fcH17[2
+R28
+R3
+R4
+R0
+Z185 8C:/Users/dimar/Desktop/Proyecto/EX4/restador.vhd
+Z186 FC:/Users/dimar/Desktop/Proyecto/EX4/restador.vhd
+l0
+L6
+V33m@a_9VHaXCTLG:el8;E0
+!s100 GPcjV@Dc<fEg?a7oBj_Ko1
+R7
+31
+R8
+!i10b 1
+R9
+Z187 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/restador.vhd|
+Z188 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/restador.vhd|
+!i113 1
+R12
+R13
+Abehav
+R184
+R28
+R3
+R4
+DEx4 work 8 restador 0 22 33m@a_9VHaXCTLG:el8;E0
+l18
+L14
+VSmKYQa8z2fB[eCa1PZ=iP0
+!s100 jIUJ:f_J3_Co:>Z7WGNnK0
+R7
+31
+R8
+!i10b 1
+R9
+R187
+R188
+!i113 1
+R12
+R13
+Esynchronizer
+Z189 w1560289440
+R28
+R3
+R4
+R0
+Z190 8C:/Users/dimar/Desktop/Proyecto/EX4/synchronizer.vhd
+Z191 FC:/Users/dimar/Desktop/Proyecto/EX4/synchronizer.vhd
+l0
+L4
+VX<5Z1g2ao<MH2RKflFaoj1
+!s100 OhUb_EmNkQgVJX0^j6QmX3
+R7
+31
+R44
+!i10b 1
+R45
+Z192 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/synchronizer.vhd|
+Z193 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/synchronizer.vhd|
+!i113 1
+R12
+R13
+Astruc_1
+R28
+R3
+R4
+DEx4 work 12 synchronizer 0 22 X<5Z1g2ao<MH2RKflFaoj1
+l13
+L11
+VkDL5D7??0W;B@84W^9m0b3
+!s100 UL9h=W5n>dW0[NX2ZAz3Z2
+R7
+31
+R44
+!i10b 1
+R45
+R192
+R193
+!i113 1
+R12
+R13
+Eteclado
+Z194 w1561060112
+R28
+Z195 DPx4 work 23 my_componentsdelteclado 0 22 8U[LMIc9C[ICCUS]^A[;>2
+R3
+R4
+R0
+Z196 8C:/Users/dimar/Desktop/Proyecto/EX4/teclado.vhd
+Z197 FC:/Users/dimar/Desktop/Proyecto/EX4/teclado.vhd
+l0
+L6
+V]jfNbCi_E`kec^@4PifF_1
+!s100 Adbh_SHZ^j1b60TD0QGJh3
+R7
+31
+R8
+!i10b 1
+R9
+Z198 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/teclado.vhd|
+Z199 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/teclado.vhd|
+!i113 1
+R12
+R13
+Astructural
+R28
+R195
+R3
+R4
+DEx4 work 7 teclado 0 22 ]jfNbCi_E`kec^@4PifF_1
+l32
+L15
+VGMB>9DWN>Y`nBQ]XjdRcZ2
+!s100 fK]=UK<:D5cYmi3F2GMRJ2
+R7
+31
+R8
+!i10b 1
+R9
+R198
+R199
+!i113 1
+R12
+R13
+Evga_maquina
+Z200 w1562619232
+R28
+Z201 DPx4 work 10 my_circuit 0 22 cz03XTo]d[cNdn0Sgc6Hm3
+R3
+R4
+R0
+Z202 8C:/Users/dimar/Desktop/Proyecto/EX4/VGA_MAQUINA.vhd
+Z203 FC:/Users/dimar/Desktop/Proyecto/EX4/VGA_MAQUINA.vhd
+l0
+L6
+ViF8BbQ]bj=hzDTK_Oim]S3
+!s100 >j30ljQ;6kZaMdRg]fK2a1
+R7
+31
+R8
+!i10b 1
+R9
+Z204 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/VGA_MAQUINA.vhd|
+Z205 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/VGA_MAQUINA.vhd|
+!i113 1
+R12
+R13
+Acircuit
+R28
+R201
+R3
+R4
+DEx4 work 11 vga_maquina 0 22 iF8BbQ]bj=hzDTK_Oim]S3
+l83
+L39
+VXC[Jaf67?[@5NDCPTl9d^0
+!s100 Rj;_;[^T2LVH@0XQGY2Ua2
+R7
+31
+R8
+!i10b 1
+R9
+R204
+R205
+!i113 1
+R12
+R13
+Evga_sync
+Z206 w1561042512
+R28
+Z207 DPx4 work 23 my_componentdelvga_sync 0 22 GC]>M0_VYbY?AlQ>?oPSF2
+R3
+R4
+R0
+Z208 8C:/Users/dimar/Desktop/Proyecto/EX4/vga_sync.vhd
+Z209 FC:/Users/dimar/Desktop/Proyecto/EX4/vga_sync.vhd
+l0
+L6
+VlHmO=K8<2Coi8nVQg2iB43
+!s100 IjPcF=MJgb3JGOzURF2]h0
+R7
+31
+R8
+!i10b 1
+R9
+Z210 !s90 -reportprogress|300|-93|-work|work|C:/Users/dimar/Desktop/Proyecto/EX4/vga_sync.vhd|
+Z211 !s107 C:/Users/dimar/Desktop/Proyecto/EX4/vga_sync.vhd|
+!i113 1
+R12
+R13
+Astruc_1
+R28
+R207
+R3
+R4
+DEx4 work 8 vga_sync 0 22 lHmO=K8<2Coi8nVQg2iB43
+l26
+L17
+V5A4>hOO1?UidU]88`158P1
+!s100 PlQZ4g`nJIMlVzUL?WO5G0
+R7
+31
+R8
+!i10b 1
+R9
+R210
+R211
+!i113 1
+R12
+R13

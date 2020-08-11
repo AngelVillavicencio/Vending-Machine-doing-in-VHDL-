@@ -1,0 +1,41 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.my_componentsdelmaq_eg1.all;
+
+entity maq_eg1 is
+	port (signal clock_50, reset_n: in std_logic;
+			signal filas: in std_logic_vector(3 downto 0);
+			signal VGA_R   : out std_logic_vector(3 downto 0);
+			signal VGA_G   : out std_logic_vector(3 downto 0);
+			signal VGA_B   : out std_logic_vector(3 downto 0);
+			signal VGA_HS  : out std_logic;
+			signal VGA_vS  : out std_logic);
+end maq_eg1;
+
+
+architecture structural of maq_eg1 is
+
+	signal display:  std_logic_vector(6 downto 0);
+	signal columnas:  std_logic_vector(3 downto 0);
+	signal z_out:  std_logic;
+	signal in_hexa:  std_logic_vector(3 downto 0);
+	
+	signal D_dec		:  std_logic_vector(6 downto 0);
+	signal D_uni		:  std_logic_vector(6 downto 0);
+	signal D_uni_p		:  std_logic;
+	signal D_dec_cent	:  std_logic_vector(6 downto 0);
+	signal D_uni_cent	:  std_logic_vector(6 downto 0);
+	signal qA			:  std_logic_vector(3 downto 0);
+	signal qP			:  std_logic_vector(3 downto 0);
+	signal qc			:  std_logic_vector(3 downto 0);
+	signal entreg		:  std_logic;
+
+begin
+
+	teclado1: teclado port map(filas, reset_n, clock_50, display, columnas, z_out, in_hexa);
+	
+	input_ev: input_eval port map(reset_n, z_out, clock_50, in_hexa, D_dec, D_uni, D_uni_p, D_dec_cent, D_uni_cent, qA, qP, qC, entreg);
+	
+	vga: vga_comp port map (clock_50,reset_n,entreg,qA,qP,qC,VGA_R,VGA_G, VGA_B, VGA_HS, VGA_vS);
+
+end structural;

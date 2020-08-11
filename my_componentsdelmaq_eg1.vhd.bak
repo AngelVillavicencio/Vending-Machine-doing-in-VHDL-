@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+package my_componentsmaq_eg1 is
+	component teclado is 
+	port(	signal reset_n	: in std_logic;
+			signal clock_50: in std_logic;
+			signal filas	: in std_logic_vector(3 downto 0);
+			signal display	: out std_logic_vector(6 downto 0);
+			signal columnas: out std_logic_vector(3 downto 0));
+	end component;
+	
+	component input_eval is
+	port(	signal reset_n		: in std_logic;
+			signal valido		: in std_logic;
+			signal clock_50	: in std_logic;
+			signal valor		: in std_logic_vector(3 downto 0);
+			signal D_dec		: out std_logic_vector(6 downto 0);
+			signal D_uni		: out std_logic_vector(6 downto 0);
+			signal D_uni_p		: out std_logic;
+			signal D_dec_cent	: out std_logic_vector(6 downto 0);
+			signal D_uni_cent	: out std_logic_vector(6 downto 0);
+			signal qA			: out std_logic_vector(3 downto 0);
+			signal qP			: out std_logic_vector(3 downto 0);
+			signal qc			: out std_logic_vector(3 downto 0);
+			signal entreg		: out std_logic);
+	component vga_comp is 
+	port(	signal clock_50: in  std_logic;
+			signal reset_n : in  std_logic;
+			signal entrega : in  std_logic;
+			signal qA      : in std_logic_vector(3 downto 0);
+			signal qP      : in std_logic_vector(3 downto 0);
+			signal qC      : in std_logic_vector(3 downto 0);
+			signal VGA_R   : out std_logic_vector(3 downto 0);
+			signal VGA_G   : out std_logic_vector(3 downto 0);
+			signal VGA_B   : out std_logic_vector(3 downto 0);
+			signal VGA_HS  : out std_logic;
+			signal VGA_vS  : out std_logic);	
+end component;
+	
+	
+end package;

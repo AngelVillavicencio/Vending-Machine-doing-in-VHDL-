@@ -1,0 +1,2495 @@
+# do maq_eg1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/registro_vuelto.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/registro_vuelto.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registro_vuelto
+# -- Compiling architecture structural of registro_vuelto
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_components_vuelto.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/my_components_vuelto.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package my_components_vuelto
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1_vuelto.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1_vuelto.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4a1_vuelto
+# -- Compiling architecture struc of mux4a1_vuelto
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/complemento_dos.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/complemento_dos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complemento_dos
+# -- Compiling architecture structural of complemento_dos
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_circuit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/my_circuit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package my_circuit
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/synchronizer.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/synchronizer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity synchronizer
+# -- Compiling architecture struc_1 of synchronizer
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/registro4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/registro4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registro4
+# -- Compiling architecture behave_2 of registro4
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/registro.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/registro.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registro8
+# -- Compiling architecture behave_1 of registro8
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4a1
+# -- Compiling architecture struc_5 of mux4a1
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/mux2a1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/mux2a1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2a1
+# -- Compiling architecture struc_0 of mux2a1
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/hexa.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/hexa.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity hexa
+# -- Compiling architecture structural_0 of hexa
+# End time: 19:51:29 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/fulladder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:29 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture behave_3 of fulladder
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/ffd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/ffd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ffd
+# -- Compiling architecture behave of ffd
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/enganche.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/enganche.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity enganche
+# -- Compiling architecture structural of enganche
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/divisor5millones.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/divisor5millones.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity divisor5millones
+# -- Compiling architecture struc_0 of divisor5millones
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/divisor500mil.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/divisor500mil.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity divisor500mil
+# -- Compiling architecture behave_0 of divisor500mil
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/divisor.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/divisor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity divisor
+# -- Compiling architecture behave_0 of divisor
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/detec_fs.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/detec_fs.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity detec_fs
+# -- Compiling architecture structural of detec_fs
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/decodificador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/decodificador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decodificador
+# -- Compiling architecture struc_4 of decodificador
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/counter_mod.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/counter_mod.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity counter_mod
+# -- Compiling architecture structural of counter_mod
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/counter.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity counter
+# -- Compiling architecture struc of counter
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/contador4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/contador4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador4
+# -- Compiling architecture struc_3 of contador4
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/contador10.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/contador10.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador10
+# -- Compiling architecture circuito of contador10
+# End time: 19:51:30 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/contador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:30 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/contador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador
+# -- Compiling architecture struc of contador
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/comparador1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/comparador1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity comparador1
+# -- Compiling architecture struc_3 of comparador1
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/comparador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/comparador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity comparador
+# -- Compiling architecture struc_3 of comparador
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/codificador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/codificador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity codificador
+# -- Compiling architecture struc_2 of codificador
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/bintobcd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/bintobcd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity bintobcd
+# -- Compiling architecture structural of bintobcd
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/mux2_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/mux2_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2_1
+# -- Compiling architecture struc_6 of mux2_1
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/registro_tipo_producto.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/registro_tipo_producto.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registro_tipo_producto
+# -- Compiling architecture circuito of registro_tipo_producto
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/maquina_de_estado.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/maquina_de_estado.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity maquina_de_estado
+# -- Compiling architecture structura of maquina_de_estado
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/hexa_0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/hexa_0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity hexa_0
+# -- Compiling architecture structural_0 of hexa_0
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdeladder_completo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdeladder_completo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package my_componentsdeladder_completo
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdelvga_sync.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdelvga_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package my_componentdelvga_sync
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdeladder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdeladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package my_componentdeladder
+# End time: 19:51:31 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_circuitsdelinput_eval.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:31 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/my_circuitsdelinput_eval.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package my_circuitsdelinput_eval
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelteclado.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelteclado.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package my_componentsdelteclado
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelmaq_eg1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelmaq_eg1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package my_componentsdelmaq_eg1
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/restador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/restador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package my_components_vuelto
+# -- Compiling entity restador
+# -- Compiling architecture behav of restador
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/VGA_MAQUINA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/VGA_MAQUINA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package my_circuit
+# -- Loading package NUMERIC_STD
+# -- Compiling entity VGA_MAQUINA
+# -- Compiling architecture circuit of VGA_MAQUINA
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/vga_sync.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/vga_sync.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package my_componentdelvga_sync
+# -- Loading package NUMERIC_STD
+# -- Compiling entity vga_sync
+# -- Compiling architecture struc_1 of vga_sync
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/teclado.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/teclado.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package my_componentsdelteclado
+# -- Loading package NUMERIC_STD
+# -- Compiling entity teclado
+# -- Compiling architecture structural of teclado
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/input_eval.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/input_eval.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package my_circuitsdelinput_eval
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_eval
+# -- Compiling architecture behav of input_eval
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/adder_completo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/adder_completo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package my_componentsdeladder_completo
+# -- Compiling entity adder_completo
+# -- Compiling architecture struc_2 of adder_completo
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package my_componentdeladder
+# -- Compiling entity adder
+# -- Compiling architecture struc_0 of adder
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/maq_eg1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:32 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/maq_eg1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package my_componentsdelmaq_eg1
+# -- Loading package NUMERIC_STD
+# -- Compiling entity maq_eg1
+# -- Compiling architecture structural of maq_eg1
+# End time: 19:51:32 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/simulation/modelsim/maq_eg1.vht}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 19:51:33 on Jul 08,2019
+# vcom -reportprogress 300 -93 -work work C:/Users/dimar/Desktop/Proyecto/EX4/simulation/modelsim/maq_eg1.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity maq_eg1_vhd_tst
+# -- Compiling architecture maq_eg1_arch of maq_eg1_vhd_tst
+# End time: 19:51:33 on Jul 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  maq_eg1_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" maq_eg1_vhd_tst 
+# Start time: 19:51:33 on Jul 08,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.maq_eg1_vhd_tst(maq_eg1_arch)
+# Loading work.my_componentsdelmaq_eg1
+# Loading work.maq_eg1(structural)
+# Loading work.my_componentsdelteclado
+# Loading work.teclado(structural)
+# Loading work.divisor5millones(struc_0)
+# Loading work.synchronizer(struc_1)
+# Loading work.codificador(struc_2)
+# Loading work.contador4(struc_3)
+# Loading work.decodificador(struc_4)
+# Loading work.mux4a1(struc_5)
+# Loading work.hexa_0(structural_0)
+# Loading work.mux2_1(struc_6)
+# Loading work.my_circuitsdelinput_eval
+# Loading work.input_eval(behav)
+# Loading work.divisor500mil(behave_0)
+# Loading work.ffd(behave)
+# Loading work.registro4(behave_2)
+# Loading work.comparador(struc_3)
+# Loading work.maquina_de_estado(structura)
+# Loading work.mux2a1(struc_0)
+# Loading work.my_componentsdeladder_completo
+# Loading work.adder_completo(struc_2)
+# Loading work.my_componentdeladder
+# Loading work.adder(struc_0)
+# Loading work.fulladder(behave_3)
+# Loading work.registro8(behave_1)
+# Loading work.bintobcd(structural)
+# Loading work.hexa(structural_0)
+# Loading work.counter(struc)
+# Loading work.contador10(circuito)
+# Loading work.comparador1(struc_3)
+# Loading work.detec_fs(structural)
+# Loading work.enganche(structural)
+# Loading work.counter_mod(structural)
+# Loading work.registro_tipo_producto(circuito)
+# Loading work.my_components_vuelto
+# Loading work.restador(behav)
+# Loading work.mux4a1_vuelto(struc)
+# Loading work.complemento_dos(structural)
+# Loading work.registro_vuelto(structural)
+# Loading work.my_circuit
+# Loading work.vga_maquina(circuit)
+# Loading work.my_componentdelvga_sync
+# Loading work.vga_sync(struc_1)
+# Loading work.divisor(behave_0)
+# Loading work.contador(struc)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10000 ns
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui/A1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui/A1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui/A1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui/A1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui/A1
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui/A1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/vga_maqui/A1/U0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/input_e/I0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /maq_eg1_vhd_tst/i1/teclado1/U0
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /maq_eg1_vhd_tst/i1/vga_maqui
+# End time: 19:53:29 on Jul 08,2019, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 940

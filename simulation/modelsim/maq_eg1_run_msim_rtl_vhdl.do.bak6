@@ -1,0 +1,62 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/registro_vuelto.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_components_vuelto.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1_vuelto.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/complemento_dos.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_circuit.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/synchronizer.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/registro4.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/registro.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/mux4a1.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/mux2a1.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/hexa.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/fulladder.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/ffd.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/enganche.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/divisor5millones.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/divisor500mil.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/divisor.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/detec_fs.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/decodificador.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/counter_mod.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/counter.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/contador4.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/contador10.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/contador.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/comparador1.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/comparador.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/codificador.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/bintobcd.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/mux2_1.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/registro_tipo_producto.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/maquina_de_estado.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/hexa_0.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdeladder_completo.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdelvga_sync.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentdeladder.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_circuitsdelinput_eval.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelteclado.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/my_componentsdelmaq_eg1.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/restador.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/VGA_MAQUINA.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/vga_sync.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/teclado.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/input_eval.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/adder_completo.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/adder.vhd}
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/maq_eg1.vhd}
+
+vcom -93 -work work {C:/Users/dimar/Desktop/Proyecto/EX4/simulation/modelsim/maq_eg1.vht}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  maq_eg1_vhd_tst
+
+add wave *
+view structure
+view signals
+run 1000 ms
